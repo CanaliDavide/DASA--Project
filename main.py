@@ -8,7 +8,11 @@ import scipy
 
 np.random.seed(0)
 
-chickenData = pd.read_excel("Data/dataset.xlsx")
+
+#Data preparation
+
+chickenData = pd.read_excel("Data/Data301022-A+BCycles.xlsx")
+print(chickenData.head())
 chickenData["Chickens Death Per Day"] = chickenData["Chickens Death Per Day"].fillna(chickenData["Chickens Death Per Day"].mean())
 chickenData["Current Chickens"] = chickenData["Current Chickens"].fillna(chickenData["Current Chickens"].mean())
 chickenData["# Eggs sold (First quality)"] = chickenData["# Eggs sold (First quality)"].fillna(chickenData["# Eggs sold (First quality)"].mean())
@@ -16,17 +20,26 @@ chickenData["Water Consuption (gr)"] = chickenData["Water Consuption (gr)"].fill
 chickenData["Date of Selling"] = chickenData["Date of Laid"]
 print(chickenData.head())
 print(chickenData.shape)
+x_feautures = ["Water Consuption (gr)", "Feed Consuption (gr)", "Current Chickens", "Chickens Death Per Day"]
+y_feautures = "# Eggs sold (First quality)"
 
-""" chickenData2 = chickenData[["Chickens Death Per Day", "Water Consuption (gr)", "Feed Consuption (gr)"]]
+#Data inspection
+
+chickenData2 = chickenData[["Chickens Death Per Day", "Water Consuption (gr)", "Feed Consuption (gr)"]]
 sns.set(style="ticks", color_codes=True)
 g = sns.pairplot(chickenData2)
-plt.show() """
+plt.show()
+
+#print(chickenData[x_feautures].corr().to_numpy()[:,-1]) # correlation values of the last column (chd)
+sns.heatmap(chickenData[x_feautures].corr())
+plt.show()
+
+#Model preapaation
 
 #Parameters choice
-x_feautures = ["Water Consuption (gr)", "Feed Consuption (gr)", "Current Chickens", "Chickens Death Per Day"]
 x = chickenData[x_feautures].to_numpy()
 #NB: y must be monodimensional
-y = chickenData["# Eggs sold (First quality)"].to_numpy()
+y = chickenData[y_feautures].to_numpy()
 print(x.shape, y.shape)
 
 #model split
@@ -110,12 +123,12 @@ plt.xlabel('Residuals')
 plt.show() """
 
 # Plotting the correlation matrix 
-sns.heatmap(chickenData[x_feautures].corr(), annot=True)
+""" sns.heatmap(chickenData[x_feautures].corr(), annot=True)
 plt.title('Correlation of Predictors')
-plt.show()
+plt.show() """
 
 from statsmodels.stats.outliers_influence import variance_inflation_factor
-# Gathering the VIF for each variable
+""" # Gathering the VIF for each variable
 VIF = [variance_inflation_factor(chickenData[x_feautures], i) for i in range(chickenData[x_feautures].shape[1])]
 for idx, vif in enumerate(VIF):
-    print('{0}: {1}'.format(x_feautures[idx], vif))
+    print('{0}: {1}'.format(x_feautures[idx], vif)) """
