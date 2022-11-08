@@ -1,4 +1,4 @@
-﻿Id Sensore,Data-Ora,Valore Medio Giornaliero, Minimo Valore Medio Orario, Massimo Valore Medio Orario
+﻿Sensor_ID,Date,Average_daily_value,Minimum_average_hourly_value,Maximum_average_hourly_value
 5121,2018/01/01,3.0,1.1,4.2
 5121,2018/01/02,5.2,1.1,12.3
 5121,2018/01/03,2.4,-0.9,5.1
