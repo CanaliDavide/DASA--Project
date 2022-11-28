@@ -29,8 +29,8 @@ MarketingYear;ReferencePeriod;WeekNo;MemberState;FarmingMethod;Price(euro/100kg)
 2022;08/08/2022;32;Italy;Cage;234.13
 2022;01/08/2022;31;Italy;Barn;271.83
 2022;01/08/2022;31;Italy;Cage;234.13
-2022;25/07/2022;30;Italy;Barn;228.17
-2022;25/07/2022;30;Italy;Cage;265.87
+2022;25/07/2022;30;Italy;Barn;265.87
+2022;25/07/2022;30;Italy;Cage;228.17
 2022;18/07/2022;29;Italy;Barn;265.87
 2022;18/07/2022;29;Italy;Cage;228.17
 2022;11/07/2022;28;Italy;Barn;265.08
