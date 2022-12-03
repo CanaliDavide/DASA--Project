@@ -1,8 +1,17 @@
 import pandas as pd
+
 import numpy as np
+
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import matplotlib.ticker as mticker
+
+import scipy.cluster.hierarchy as shc
+
+import seaborn as sns
+
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.cluster import AgglomerativeClustering
 
 def EggsPerSeason(dataSet, cycleName:str, wantNumber=False, colorSpring='pink', colorSummer='orange', colorAutumn='brown', colorWinter='blue'):
     """
@@ -138,3 +147,38 @@ def CompareVariableInCycles(variables, nameVariable, legendLabels=['Y', 'Z', 'A'
     
     plt.show()
 
+def HierarchicalClutering(dataSet, attributes):
+    '''
+    Cluster 2 variables of the same cycle
+
+    Parameters:
+    ----------
+        dataSet: DataFrame
+            the datset interested in cluster, a cycle
+        attributes: array of str
+            the 2 attributes interested in cluster 
+
+    Return:
+    '''
+    dataSet=dataSet.drop(columns=["Arrival Chickens Date","Date of Selling","Date of Laid"])
+
+    scaler = MinMaxScaler()
+    data=pd.DataFrame(scaler.fit_transform(dataSet.values), columns=dataSet.columns, index=dataSet.index)
+    
+    data = data[attributes]
+    plt.figure()
+    plt.title("Dendrogram")
+
+    # Selecting Annual Income and Spending Scores by index
+    selected_data = data
+    clusters = shc.linkage(selected_data, 
+                method='ward', 
+                metric="euclidean")
+    shc.dendrogram(Z=clusters)
+    plt.show()
+
+    n_cluster = input("How many cluster do you want?")
+    clustering_model = AgglomerativeClustering(n_clusters=int(n_cluster), affinity='euclidean', linkage='ward')
+    clustering_model.fit(selected_data)
+    data_labels = clustering_model.labels_ #print the clust per item
+    sns.scatterplot(x=attributes[0], y=attributes[1],data=selected_data, hue=data_labels, palette="rainbow").set_title('Clusters')
