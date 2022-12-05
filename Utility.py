@@ -338,7 +338,18 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
         color = cmap.get_under()
         if (dataLabels[i] >= 0):
             color = cmap(step*(dataLabels[i]+1))
-        ax1.plot(data_date[i].Date,data[attribute][i],"x", color=color)
+        ax1.plot(data_date["Date"][i],data[attribute][i],"x", color=color)
+
+        month =  data_date.Date.dt.month[i]
+        if (month==9)|(month==10)|(month==11):
+            color='brown'
+        elif (month==12)|(month==1)|(month==2):
+            color = 'blue'
+        elif (month==3)|(month==4)|(month==5):
+            color = 'green'
+        elif (month==6)|(month==7)|(month==8):
+            color = 'orange'
+        ax1.axvline(data_date["Date"][i], color=color,alpha=0.05)
 
     plt.gcf().autofmt_xdate()
     plt.xticks(rotation=45)
