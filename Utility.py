@@ -306,7 +306,7 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
     scaler = MinMaxScaler()
     data=pd.DataFrame(scaler.fit_transform(dataSet.values), columns=dataSet.columns, index=dataSet.index)
     
-    data = data[attributes]
+    data2 = data[attributes]
 
     label_group = Counter(dataLabels)
     print(label_group)
@@ -318,7 +318,7 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
         label_group = Counter(dataLabels)
         print(label_group)
 
-    sns.scatterplot(x=attributes[0], y=attributes[1],data=data, hue=dataLabels,legend="full", palette="rainbow").set_title('Clusters')
+    sns.scatterplot(x=attributes[0], y=attributes[1],data=data2, hue=dataLabels,legend="full", palette="rainbow").set_title('Clusters')
 
     cmap = mpl.colormaps['rainbow']
     if (label_group.keys().__contains__(-1)):
