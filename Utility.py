@@ -322,24 +322,32 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
         label_group = Counter(dataLabels)
         print(label_group)
 
-    sns.scatterplot(x=attributes[0], y=attributes[1],data=data2, hue=dataLabels,legend="full", palette="rainbow").set_title('Clusters')
-
     cmap = mpl.colormaps['rainbow']
-    if (label_group.keys().__contains__(-1)):
-        num = len(label_group.keys())-1
-    else:
-        num = len(label_group.keys())+1
-    step = 1.0/num
+    keys = list(label_group.keys())
     
+    colors = []
+
+    num = len(label_group.keys())-1
+    step = 1.0/num
+
+    for i in range(num+1):
+        colors.append(cmap(step*i))
+
+    sns.scatterplot(x=attributes[0], y=attributes[1],data=data2, hue=dataLabels,legend="full", palette=colors).set_title('Clusters')
+
+
     fig, ax1 = plt.subplots()
     ax1.set_xlabel('Date')
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
     plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=31))
 
+    keys.sort()
+    print(keys)
+
+
     for i in range(len(dataLabels)):
-        color = cmap.get_under()
-        if (dataLabels[i] >= 0):
-            color = cmap(step*(dataLabels[i]+1))
+        color = colors[keys.index(dataLabels[i])]
+        
         ax1.plot(data_date["Date"][i],data[attribute][i],"x", color=color)
 
         month =  data_date.Date.dt.month[i]
