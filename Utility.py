@@ -312,11 +312,13 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
 
     label_group = Counter(dataLabels)
     print(label_group)
-    elimFrom = int(input("From which cluster you want to eliminate? (-1 if none)"))
+    elimFrom = int(input("Min number of elements per cluster? (-1 if none)"))
     if elimFrom != -1:
-        for i in range(len(dataLabels)):
-            if dataLabels[i] >= elimFrom:
-                dataLabels[i] = -1
+        for el,count in label_group.items():
+            if count<= elimFrom:
+                for i in range(len(dataLabels)):
+                    if dataLabels[i] == el:
+                        dataLabels[i] = -1
         label_group = Counter(dataLabels)
         print(label_group)
 
