@@ -23,7 +23,7 @@ from sklearn.neighbors import NearestNeighbors
 
 from sklearn.metrics import silhouette_score
 
-def EggsPerSeason(dataSet, cycleName:str, wantNumber=False, colorSpring='pink', colorSummer='orange', colorAutumn='brown', colorWinter='blue'):
+def EggsPerSeason(dataSet, cycleName:str, wantNumber=False, colorSpring='green', colorSummer='orange', colorAutumn='brown', colorWinter='blue'):
     """
     Graph of a Cycle wherea each season has a different color
 
@@ -51,7 +51,7 @@ def EggsPerSeason(dataSet, cycleName:str, wantNumber=False, colorSpring='pink', 
         yVar="Laied"
 
     data=dataSet.rename(columns={"Date of Laid": "Data", yVar:"EggsProduced"}) #, "Price(euro/100kg)":"Price"-> to show the market demand on top of the production
-    data.Data = pd.to_datetime(data.Data, format = '%d/%m/%Y')
+    data.Data = pd.to_datetime(data.Data, format = '%m/%d/%Y')
 
     data['month']=data.Data.dt.month
     dataAutumn = data.loc[(data.month==9)|(data.month==10)|(data.month==11)]
@@ -301,11 +301,13 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
     Return:
     '''
 
+    data_date=dataSet.rename(columns={"Date of Laid": "Date"})
     dataSet=dataSet.drop(columns=["Arrival Chickens Date","Date of Selling","Date of Laid"])
-
+    
     scaler = MinMaxScaler()
     data=pd.DataFrame(scaler.fit_transform(dataSet.values), columns=dataSet.columns, index=dataSet.index)
     
+    data_date.Date = pd.to_datetime(data_date.Date, format = '%m/%d/%Y')
     data2 = data[attributes]
 
     label_group = Counter(dataLabels)
@@ -328,9 +330,27 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
     step = 1.0/num
     
     fig, ax1 = plt.subplots()
+    ax1.set_xlabel('Date')
+    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+    plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=31))
+
     for i in range(len(dataLabels)):
         color = cmap.get_under()
         if (dataLabels[i] >= 0):
             color = cmap(step*(dataLabels[i]+1))
-        ax1.plot(i,data[attribute][i],"x", color=color)
+        ax1.plot(data_date["Date"][i],data[attribute][i],"x", color=color)
+
+        month =  data_date.Date.dt.month[i]
+        if (month==9)|(month==10)|(month==11):
+            color='brown'
+        elif (month==12)|(month==1)|(month==2):
+            color = 'blue'
+        elif (month==3)|(month==4)|(month==5):
+            color = 'green'
+        elif (month==6)|(month==7)|(month==8):
+            color = 'orange'
+        ax1.axvline(data_date["Date"][i], color=color,alpha=0.05)
+
+    plt.gcf().autofmt_xdate()
+    plt.xticks(rotation=45)
     plt.show()
