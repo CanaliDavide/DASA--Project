@@ -5,13 +5,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import matplotlib.ticker as mticker
+import matplotlib as mpl
+
+from collections import Counter
 
 import scipy.cluster.hierarchy as shc
 
 import seaborn as sns
 
 from sklearn.preprocessing import MinMaxScaler
+
 from sklearn.cluster import AgglomerativeClustering
+from sklearn.cluster import DBSCAN
+from sklearn.cluster import KMeans
+
+from sklearn.neighbors import NearestNeighbors
+
+from sklearn.metrics import silhouette_score
 
 def EggsPerSeason(dataSet, cycleName:str, wantNumber=False, colorSpring='pink', colorSummer='orange', colorAutumn='brown', colorWinter='blue'):
     """
@@ -79,7 +89,6 @@ def EggsPerSeason(dataSet, cycleName:str, wantNumber=False, colorSpring='pink', 
     plt.title(""+str(yVar)+' per day - '+ cycleName)
     fig.tight_layout()  # otherwise the right y-label is slightly clipped
     plt.show()
-
 
 def AveragePerDays(data, days):
     """
@@ -159,6 +168,8 @@ def HierarchicalClutering(dataSet, attributes):
             the 2 attributes interested in cluster 
 
     Return:
+    ----------
+        the labels
     '''
     dataSet=dataSet.drop(columns=["Arrival Chickens Date","Date of Selling","Date of Laid"])
 
@@ -182,3 +193,144 @@ def HierarchicalClutering(dataSet, attributes):
     clustering_model.fit(selected_data)
     data_labels = clustering_model.labels_ #print the clust per item
     sns.scatterplot(x=attributes[0], y=attributes[1],data=selected_data, hue=data_labels, palette="rainbow").set_title('Clusters')
+    return data_labels
+
+def DensityClustering(dataSet, attributes):
+    '''
+    Cluster 2 variables of the same cycle
+
+    Parameters:
+    ----------
+        dataSet: DataFrame
+            the datset interested in cluster, a cycle
+        attributes: array of str
+            the 2 attributes interested in cluster 
+
+    Return: 
+    ----------
+        the labels
+    '''
+
+    dataSet=dataSet.drop(columns=["Arrival Chickens Date","Date of Selling","Date of Laid"])
+
+    scaler = MinMaxScaler()
+    data=pd.DataFrame(scaler.fit_transform(dataSet.values), columns=dataSet.columns, index=dataSet.index)
+    
+    data = data[attributes]
+
+    # n_neighbors = 5 as kneighbors function returns distance of point to itself (i.e. first column will be zeros) 
+    nbrs = NearestNeighbors(n_neighbors=5).fit(data)
+    # Find the k-neighbors of a point
+    neigh_dist, neigh_ind = nbrs.kneighbors(data)
+    # sort the neighbor distances (lengths to points) in ascending order
+    # axis = 0 represents sort along first axis i.e. sort along row
+    sort_neigh_dist = np.sort(neigh_dist, axis=0)
+
+    k_dist = sort_neigh_dist[:, 4]
+    plt.plot(k_dist)
+    plt.grid()
+    plt.yticks(np.arange(min(k_dist), max(k_dist)+0.01, 0.01))
+    plt.ylabel("k-NN distance")
+    plt.xlabel("Sorted observations (4th NN)")
+    plt.show()
+
+    eps = input("Epsilon?")
+    cluster = DBSCAN(eps=float(eps), min_samples=4).fit(data)
+
+    data_labels = cluster.labels_
+    sns.scatterplot(x=attributes[0], y=attributes[1],data=data, hue=data_labels,legend="full", palette="rainbow").set_title('Clusters')
+    return data_labels
+
+def KMeanClustering(dataSet, attributes):
+    '''
+    Cluster 2 variables of the same cycle
+
+    Parameters:
+    ----------
+        dataSet: DataFrame
+            the datset interested in cluster, a cycle
+        attributes: array of str
+            the 2 attributes interested in cluster 
+
+    Return: 
+    ----------
+        the labels
+    '''
+
+    dataSet=dataSet.drop(columns=["Arrival Chickens Date","Date of Selling","Date of Laid"])
+
+    scaler = MinMaxScaler()
+    data=pd.DataFrame(scaler.fit_transform(dataSet.values), columns=dataSet.columns, index=dataSet.index)
+    
+    data = data[attributes]
+    range_n_clusters = [2, 3, 4, 5, 6, 7, 8]
+    silhouette_avg = []
+    for num_clusters in range_n_clusters:
+        # initialise kmeans
+        kmeans = KMeans(n_clusters=num_clusters)
+        kmeans.fit(data)
+        cluster_labels = kmeans.labels_
+        
+        # silhouette score
+        silhouette_avg.append(silhouette_score(data, cluster_labels))
+    plt.plot(range_n_clusters,silhouette_avg, 'bx-')
+    plt.xlabel('Values of K') 
+    plt.ylabel('Silhouette score') 
+    plt.title('Silhouette analysis For Optimal k')
+    plt.show()
+    n_cluster = input("How many cluster do you want?")
+    kmeans = KMeans(n_clusters=int(n_cluster))
+    kmeans.fit(data)
+    data_labels = kmeans.labels_
+    sns.scatterplot(x=attributes[0], y=attributes[1],data=data, hue=data_labels,legend="full", palette="rainbow").set_title('Clusters')
+    return data_labels
+
+def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
+    '''
+        Plot a cluster in a temporal plot
+
+    Parameters:
+    ----------
+        dataSet: DataFrame
+            the datset interested in cluster, a cycle
+        attributes: array of str
+            the 2 attributes interested in cluster 
+        attribute: str
+            the attribute to plot
+
+    Return:
+    '''
+
+    dataSet=dataSet.drop(columns=["Arrival Chickens Date","Date of Selling","Date of Laid"])
+
+    scaler = MinMaxScaler()
+    data=pd.DataFrame(scaler.fit_transform(dataSet.values), columns=dataSet.columns, index=dataSet.index)
+    
+    data2 = data[attributes]
+
+    label_group = Counter(dataLabels)
+    print(label_group)
+    elimFrom = int(input("From which cluster you want to eliminate? (-1 if none)"))
+    if elimFrom != -1:
+        for i in range(len(dataLabels)):
+            if dataLabels[i] >= elimFrom:
+                dataLabels[i] = -1
+        label_group = Counter(dataLabels)
+        print(label_group)
+
+    sns.scatterplot(x=attributes[0], y=attributes[1],data=data2, hue=dataLabels,legend="full", palette="rainbow").set_title('Clusters')
+
+    cmap = mpl.colormaps['rainbow']
+    if (label_group.keys().__contains__(-1)):
+        num = len(label_group.keys())-1
+    else:
+        num = len(label_group.keys())+1
+    step = 1.0/num
+    
+    fig, ax1 = plt.subplots()
+    for i in range(len(dataLabels)):
+        color = cmap.get_under()
+        if (dataLabels[i] >= 0):
+            color = cmap(step*(dataLabels[i]+1))
+        ax1.plot(i,data[attribute][i],"x", color=color)
+    plt.show()
