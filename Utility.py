@@ -341,6 +341,7 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
 
     fig, ax1 = plt.subplots()
     ax1.set_xlabel('Date')
+    ax1.set_ylabel(attribute)
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
     plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=31))
 
