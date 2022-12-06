@@ -307,8 +307,11 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
     data_date=dataSet.rename(columns={"Date of Laid": "Date"})
     data=dataSet.drop(columns=["Arrival Chickens Date","Date of Selling","Date of Laid"])
     
-    # scaler = MinMaxScaler()
-    # data=pd.DataFrame(scaler.fit_transform(dataSet.values), columns=dataSet.columns, index=dataSet.index)
+    scaler = MinMaxScaler()
+
+    data_orig = data
+
+    data=pd.DataFrame(scaler.fit_transform(data.values), columns=data.columns, index=data.index)
     
     data_date.Date = pd.to_datetime(data_date.Date, format = '%m/%d/%Y')
     data2 = data[attributes]
@@ -339,6 +342,8 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
     sns.scatterplot(x=attributes[0], y=attributes[1],data=data2, hue=dataLabels,legend="full", palette=colors).set_title('Clusters')
 
 
+    data=data_orig
+
     fig, ax1 = plt.subplots()
     ax1.set_xlabel('Date')
     ax1.set_ylabel(attribute)
@@ -347,7 +352,7 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
     ax1.xaxis.set_minor_locator(mpl.dates.MonthLocator((1,4,7,10)))
     ax1.xaxis.set_major_formatter(mpl.dates.DateFormatter("\n%Y"))
     ax1.xaxis.set_minor_formatter(mpl.dates.DateFormatter("%b"))
-    # fig.set_figwidth(20)
+    fig.set_figwidth(20)
     plt.setp(ax1.get_xticklabels(), rotation=0, ha="center")
     # plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
     # plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=31))
