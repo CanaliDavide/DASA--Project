@@ -352,7 +352,7 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
     ax1.xaxis.set_minor_locator(mpl.dates.MonthLocator((1,4,7,10)))
     ax1.xaxis.set_major_formatter(mpl.dates.DateFormatter("\n%Y"))
     ax1.xaxis.set_minor_formatter(mpl.dates.DateFormatter("%b"))
-    fig.set_figwidth(20)
+    # fig.set_figwidth(20)
     plt.setp(ax1.get_xticklabels(), rotation=0, ha="center")
     # plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
     # plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=31))
