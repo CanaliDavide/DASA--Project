@@ -305,10 +305,10 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
     '''
 
     data_date=dataSet.rename(columns={"Date of Laid": "Date"})
-    dataSet=dataSet.drop(columns=["Arrival Chickens Date","Date of Selling","Date of Laid"])
+    data=dataSet.drop(columns=["Arrival Chickens Date","Date of Selling","Date of Laid"])
     
-    scaler = MinMaxScaler()
-    data=pd.DataFrame(scaler.fit_transform(dataSet.values), columns=dataSet.columns, index=dataSet.index)
+    # scaler = MinMaxScaler()
+    # data=pd.DataFrame(scaler.fit_transform(dataSet.values), columns=dataSet.columns, index=dataSet.index)
     
     data_date.Date = pd.to_datetime(data_date.Date, format = '%m/%d/%Y')
     data2 = data[attributes]
