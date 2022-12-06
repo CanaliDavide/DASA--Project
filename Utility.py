@@ -177,8 +177,8 @@ def HierarchicalClutering(dataSet, attributes):
     data=pd.DataFrame(scaler.fit_transform(dataSet.values), columns=dataSet.columns, index=dataSet.index)
     
     data = data[attributes]
-    plt.figure()
-    plt.title("Dendrogram")
+    fig, ax1 = plt.subplots()
+    ax1.set_title("Dendrogram")
 
     # Selecting Annual Income and Spending Scores by index
     selected_data = data
@@ -193,6 +193,7 @@ def HierarchicalClutering(dataSet, attributes):
     clustering_model.fit(selected_data)
     data_labels = clustering_model.labels_ #print the clust per item
     sns.scatterplot(x=attributes[0], y=attributes[1],data=selected_data, hue=data_labels, palette="rainbow").set_title('Clusters')
+    plt.show()
     return data_labels
 
 def DensityClustering(dataSet, attributes):
@@ -239,6 +240,7 @@ def DensityClustering(dataSet, attributes):
 
     data_labels = cluster.labels_
     sns.scatterplot(x=attributes[0], y=attributes[1],data=data, hue=data_labels,legend="full", palette="rainbow").set_title('Clusters')
+    plt.show()
     return data_labels
 
 def KMeanClustering(dataSet, attributes):
@@ -283,6 +285,7 @@ def KMeanClustering(dataSet, attributes):
     kmeans.fit(data)
     data_labels = kmeans.labels_
     sns.scatterplot(x=attributes[0], y=attributes[1],data=data, hue=data_labels,legend="full", palette="rainbow").set_title('Clusters')
+    plt.show()
     return data_labels
 
 def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
@@ -364,3 +367,32 @@ def TemporalCluster(dataSet, dataLabels ,attributes, attribute):
     plt.gcf().autofmt_xdate()
     plt.xticks(rotation=45)
     plt.show()
+
+def CycleClusterAnalysis(dataSet, attributesArray):
+    '''
+    Cluster the cycles with different pairs of attributes
+
+    Parameters:
+    ----------
+        dataSet: DataFrame
+            the datset interested in cluster, a cycle
+        attributes: array of array of str
+            the array of attribute's pairs to cluster 
+
+    Return: 
+    ----------
+        the disctionary of all labels per pair
+    '''
+    allLabels = {}
+    labels = {"Hierarchical" : [], "Density" : [], "KMeans" : []}
+
+    for attributes in attributesArray:
+        print(attributes)
+        print("Hierarchical:")
+        labels["Hierarchical"] = HierarchicalClutering(dataSet, attributes)
+        print("Density:")
+        labels["Density"] = DensityClustering(dataSet, attributes)
+        print("KMeans:")
+        labels["KMeans"] = KMeanClustering(dataSet, attributes)
+        allLabels.update({attributes[0] + "-" + attributes[1] : labels})
+    return allLabels
