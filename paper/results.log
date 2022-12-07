@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.16)  6 DEC 2022 10:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.16)  7 DEC 2022 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,7 +352,6 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 22.
- (results.out) (results.out)
 \@outlinefile=\write4
 \openout4 = `results.out'.
 
@@ -391,7 +390,7 @@ Package hyperref Info: Link coloring OFF on input line 22.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<PolitecnicoLogo.png, id=11, 803.0pt x 501.875pt>
+<PolitecnicoLogo.png, id=3, 803.0pt x 501.875pt>
 File: PolitecnicoLogo.png Graphic file (type png)
 <use PolitecnicoLogo.png>
 Package pdftex.def Info: PolitecnicoLogo.png  used on input line 32.
@@ -409,7 +408,8 @@ Overfull \hbox (33.41599pt too wide) in paragraph at lines 44--49
 
 [1
 
-{C:/Users/canal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./PolitecnicoLogo.png>] (results.toc)
+{C:/Users/canal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./PolitecnicoLogo.png>]
+No file results.toc.
 \tf@toc=\write5
 \openout5 = `results.toc'.
 
@@ -418,22 +418,42 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.67 \newpage
-              [1] [2] (results.aux)
-Package rerunfilecheck Info: File `results.out' has not changed.
-(rerunfilecheck)             Checksum: AA0BD09C042219EB7A8BAC67F9117795;295.
+              [1]
+c:/Users/canal/Documents/DASA---Project/paper/results.tex:81: Misplaced alignment tab character &.
+l.81     \item Comparison between Z and A&
+                                          B DONE
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[2] (results.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `results.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `results.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  AA0BD09C042219EB7A8BAC67F9117795;295.
  ) 
 Here is how much of TeX's memory you used:
- 12120 strings out of 475389
- 200181 string characters out of 2777000
- 546881 words of memory out of 3000000
- 33328 multiletter control sequences out of 15000+600000
- 474157 words of font info for 44 fonts, out of 8000000 for 9000
+ 12110 strings out of 475389
+ 199935 string characters out of 2777000
+ 546798 words of memory out of 3000000
+ 33324 multiletter control sequences out of 15000+600000
+ 473849 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,7n,77p,580b,452s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\canal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on results.pdf (3 pages, 210485 bytes).
+Output written on results.pdf (3 pages, 207675 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
- 22 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
