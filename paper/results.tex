@@ -19,6 +19,14 @@
 \usepackage{amsmath}
 \usepackage{cancel}
 
+
+\newcommand{\subf}[2]{%
+  {\small\begin{tabular}[t]{@{}c@{}}
+   \mbox{}\\[-\ht\strutbox]
+   #1\\#2
+   \end{tabular}}%
+}
+
 \title{DASA - Project}
 \makeatletter
 
@@ -74,4 +82,46 @@ Upon talking with the farmer we focus our attention on 3 main topics which invol
 \end{itemize}
 
 \section{Analysis of Each Cycle}
+\subsection{Cycle A}
+\begin{center}
+    \begin{tabular}{|c | c | c | c | c | c|} 
+        \hline
+        \textbf{Arrival date} & \textbf{\#Chickens} & \textbf{Frist Laid} & \textbf{End of cycle} & \textbf{Organic} & \textbf{\#Eggs}\\ [0.5ex] 
+        \hline
+        19/7/2018 & 42.009 & 1/9/2018 & 19/5/2020 & Yes & 20.208.086\\
+        \hline
+    \end{tabular}
+\end{center}
+Significant features:
+\begin{itemize}
+    \item Average Percentage of Laid Eggs each day: 83,8\%
+    \item Average Percentage of Death each day: 0,044\%
+    \item Average Temperature during the cycle: 12,99 °C
+    \item Average Humidity during the cycle: 74,55\%
+\end{itemize}
+
+Cluster:
+\begin{center}
+\begin{tabular}{|c|c|}
+    \hline
+    \subf{\includegraphics[width=70mm]
+    {../Results/Two_clusters_division/CycleA/Density_epsilon.png}}
+         {k-NN distance to find $\epsilon$}
+    &
+    \subf{\includegraphics[width=70mm]
+    {../Results/Two_clusters_division/CycleA/Density_scatter_merged.png}}
+         {Density scatter plot merged}
+    \\
+    \hline
+    \subf{\includegraphics[width=70mm]
+    {../Results/Two_clusters_division/CycleA/Density_plot_death.png}}
+         {Percentage of death}
+    &
+    \subf{\includegraphics[width=70mm]
+    {../Results/Two_clusters_division/CycleA/Density_plot_laied.png}}
+         {Percentage of laid eggs}
+    \\
+    \hline
+\end{tabular}
+\end{center}
 \end{document}
