@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.26)  10 DEC 2022 14:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.26)  10 DEC 2022 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -381,24 +381,24 @@ File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
 ) (results.aux)
 \openout1 = `results.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
  (C:\Users\fcami\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count309
@@ -427,7 +427,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 33.
  (results.out) (results.out)
 \@outlinefile=\write4
 \openout4 = `results.out'.
@@ -467,16 +467,16 @@ Package hyperref Info: Link coloring OFF on input line 25.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<PolitecnicoLogo.png, id=7, 803.0pt x 501.875pt>
+<PolitecnicoLogo.png, id=55, 803.0pt x 501.875pt>
 File: PolitecnicoLogo.png Graphic file (type png)
 <use PolitecnicoLogo.png>
-Package pdftex.def Info: PolitecnicoLogo.png  used on input line 33.
+Package pdftex.def Info: PolitecnicoLogo.png  used on input line 41.
 (pdftex.def)             Requested size: 182.08852pt x 113.80533pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
 (C:\Users\fcami\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
  (C:\Users\fcami\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -489,23 +489,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \newpage
-              [1] [2] (results.aux)
+l.70 \newpage
+              [1]
+<../Results/Two_clusters_division/CycleA/Density_epsilon.png, id=85, 428.5611pt x 314.3745pt>
+File: ../Results/Two_clusters_division/CycleA/Density_epsilon.png Graphic file (type png)
+<use ../Results/Two_clusters_division/CycleA/Density_epsilon.png>
+Package pdftex.def Info: ../Results/Two_clusters_division/CycleA/Density_epsilon.png  used on input line 109.
+(pdftex.def)             Requested size: 199.16928pt x 146.10587pt.
+<../Results/Two_clusters_division/CycleA/Density_scatter_merged.png, id=86, 409.7709pt x 328.8285pt>
+File: ../Results/Two_clusters_division/CycleA/Density_scatter_merged.png Graphic file (type png)
+<use ../Results/Two_clusters_division/CycleA/Density_scatter_merged.png>
+Package pdftex.def Info: ../Results/Two_clusters_division/CycleA/Density_scatter_merged.png  used on input line 113.
+(pdftex.def)             Requested size: 199.16928pt x 159.82784pt.
+<../Results/Two_clusters_division/CycleA/Density_plot_death.png, id=87, 428.5611pt x 307.1475pt>
+File: ../Results/Two_clusters_division/CycleA/Density_plot_death.png Graphic file (type png)
+<use ../Results/Two_clusters_division/CycleA/Density_plot_death.png>
+Package pdftex.def Info: ../Results/Two_clusters_division/CycleA/Density_plot_death.png  used on input line 118.
+(pdftex.def)             Requested size: 199.16928pt x 142.74712pt.
+<../Results/Two_clusters_division/CycleA/Density_plot_laied.png, id=88, 416.2752pt x 304.2567pt>
+File: ../Results/Two_clusters_division/CycleA/Density_plot_laied.png Graphic file (type png)
+<use ../Results/Two_clusters_division/CycleA/Density_plot_laied.png>
+Package pdftex.def Info: ../Results/Two_clusters_division/CycleA/Density_plot_laied.png  used on input line 122.
+(pdftex.def)             Requested size: 199.16928pt x 145.57265pt.
+ [2] [3 <../Results/Two_clusters_division/CycleA/Density_epsilon.png> <../Results/Two_clusters_division/CycleA/Density_scatter_merged.png> <../Results/Two_clusters_division/CycleA/Density_plot_death.png> <../Results/Two_clusters_division/CycleA/Density_plot_laied.png>] [4] [5] (results.aux)
 Package rerunfilecheck Info: File `results.out' has not changed.
-(rerunfilecheck)             Checksum: 9814C2D956916ADB9290ECA4E25C967A;103.
+(rerunfilecheck)             Checksum: B769F5E8F17F1F0C929B59491B6DF27D;1554.
  ) 
 Here is how much of TeX's memory you used:
- 13400 strings out of 475284
- 217702 string characters out of 2774104
- 562789 words of memory out of 3000000
- 34679 multiletter control sequences out of 15000+600000
- 475417 words of font info for 51 fonts, out of 8000000 for 9000
+ 13474 strings out of 475284
+ 219983 string characters out of 2774104
+ 572843 words of memory out of 3000000
+ 34730 multiletter control sequences out of 15000+600000
+ 477764 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,7n,77p,636b,455s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on results.pdf (3 pages, 202795 bytes).
+ 72i,18n,77p,636b,533s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\fcami\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on results.pdf (6 pages, 392867 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 14 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
