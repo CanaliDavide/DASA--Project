@@ -154,7 +154,7 @@ Cluster:
     &
     \subf{\includegraphics[width=70mm]
     {../Results/Two_clusters_division/CycleB/Hierarchical_scatter.png}}
-         {Density scatter plot merged}
+         {Hierarchical cluster scatter plot}
     \\
     \hline
     \subf{\includegraphics[width=70mm]
@@ -198,7 +198,7 @@ Cluster:
     &
     \subf{\includegraphics[width=70mm]
     {../Results/Two_clusters_division/CycleC/Hierarchical_scatter.png}}
-         {Density scatter plot merged}
+         {Hierarchical cluster scatter plot}
     \\
     \hline
     \subf{\includegraphics[width=70mm]
@@ -242,7 +242,7 @@ Cluster:
     &
     \subf{\includegraphics[width=70mm]
     {../Results/Two_clusters_division/CycleX1/KMeans_scatter.png}}
-         {Density scatter plot merged}
+         {K-Means cluster scatter plot}
     \\
     \hline
     \subf{\includegraphics[width=70mm]
@@ -286,7 +286,7 @@ Cluster:
     &
     \subf{\includegraphics[width=70mm]
     {../Results/Two_clusters_division/CycleX2/Hierarchical_scatter.png}}
-         {Density scatter plot merged}
+         {Hierarchical cluster scatter plot}
     \\
     \hline
     \subf{\includegraphics[width=70mm]
@@ -330,7 +330,7 @@ Cluster:
     &
     \subf{\includegraphics[width=70mm]
     {../Results/Two_clusters_division/CycleY/KMeans_scatter.png}}
-         {Density scatter plot merged}
+         {K-means cluster scatter plot}
     \\
     \hline
     \subf{\includegraphics[width=70mm]
@@ -351,7 +351,7 @@ Cluster:
         \hline
         Arrival date & \#Chickens & Frist Laid & End of cycle & Organic & \#Eggs\\ [0.5ex] 
         \hline
-        17/11/2016 & 42.130 & 08/01/2017 & 27/05/2018 & No & 17.721.240\\ 
+        17/11/2016 & 42.130 & 08/01/2017 & 27/05/2018 & Yes & 17.721.240\\ 
         \hline
     \end{tabular}
 \end{center}
@@ -374,7 +374,7 @@ Cluster:
     &
     \subf{\includegraphics[width=70mm]
     {../Results/Two_clusters_division/CycleZ/Hierarchical_scatter.png}}
-         {Density scatter plot merged}
+         {Hierarchical cluster scatter plot}
     \\
     \hline
     \subf{\includegraphics[width=70mm]
@@ -390,7 +390,46 @@ Cluster:
 \end{center}
 
 \section{Common features}
+In this section, we will discuss what we discovered by comparing all the cycles together.
+After seeing that each cycle can be clustered in two parts, those clusters also divide the cycle into two distinct sections in a plot based on date. We tried to apply the same idea in a dataset composed of all the cycles together.
 
+\begin{center}
+    \begin{tabular}{|c|c|}
+        \hline
+        \subf{\includegraphics[width=70mm]
+        {../Results/Every_cycle/Hierarchical_dendogram.png}}
+             {Dendogram}
+        &
+        \subf{\includegraphics[width=70mm]
+        {../Results/Every_cycle/Hierarchical_scatter_death.png}}
+             {Hierarchical cluster scatter plot}
+    \end{tabular}
+    \begin{tabular}{|c|}
+        \hline
+        \subf{\includegraphics[width=144mm]
+    {../Results/Every_cycle/Hierarchical_plot_death.png}}
+         {Percentage of death}\\
+    \hline
+    \subf{\includegraphics[width=144 mm]
+    {../Results/Every_cycle/Hierarchical_plot_laied.png}}
+         {Percentage of laid eggs}
+    \\
+    \hline
+    \end{tabular}
+    
+\end{center}
+
+Looking at the clusters we find that indeed the division of each cycle is respected. We find also that the only one that didn't respect this division is cycle C, which could be expected since it just started, but the interesting thing is that the whole cycle C is clustered as cluster 1 which is the one that identifies the end of every other cycle so we can see how bad is performing this new cycle both in death and laid rate.
+This can show how the ban on beak-cutting affected the welfare of the chickens, with the beak the violence between animals increased a lot and not only increase the death rate but increased a lot the stress of the chickens reducing their productivity.
+
+To better compare the different cycles we made a spider plot with 4 features:
+\begin{itemize}
+    \item Average Percentage of Laid Eggs each day
+    \item Average Percentage of Death each day
+    \item Average Temperature during the cycle
+    \item Average Humidity during the cycle
+\end{itemize}
+\includegraphics[width=\linewidth]{../Results/Every_cycle/Spider_Plot.png}
 \section{Organic vs non-organic cycles}
 
 \section{Death-season correlation}
