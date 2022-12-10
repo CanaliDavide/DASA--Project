@@ -81,6 +81,22 @@ Upon talking with the farmer we focus our attention on 3 main topics which invol
     \item Quantify the monetary loss when a chicken dies at the start of the cycle.
 \end{itemize}
 
+\section{Data Cleaning}
+Before starting to analyze the data we cleaned them.
+In all the cycles we performed these next steps:
+\begin{itemize}
+    \item Removed tail and head (20 rows each more or less).
+    \item Adjusted feed and water consumption to correct typos and switchboard errors.
+    \item Adjusted eggs production when \% of laid when above 100\%, distributed in the days before assuming that those eggs were not collected.
+    \item Adjusted death count to match the delta of death at the end of the cycle.
+    \item Checked that the difference between the total amount of eggs produced and the number of eggs sold was less than 0.6\%.
+\end{itemize}
+
+Specifically, in cycle A we also adjust a series of missing data regarding the water consumption adding them following the cycle distribution.
+
+//TODO Teo add what u did in cycles Y and X
+
+
 \section{Analysis of Each Cycle}
 \subsection{Cycle A}
 \begin{center}
