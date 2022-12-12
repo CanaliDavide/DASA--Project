@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.16)  10 DEC 2022 22:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.16)  12 DEC 2022 10:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -663,22 +663,49 @@ File: ../Results/Every_cycle/Spider_Plot.png Graphic file (type png)
 <use ../Results/Every_cycle/Spider_Plot.png>
 Package pdftex.def Info: ../Results/Every_cycle/Spider_Plot.png  used on input line 451.
 (pdftex.def)             Requested size: 426.79134pt x 399.56169pt.
- [10 <../Results/Every_cycle/Hierarchical_dendogram.png> <../Results/Every_cycle/Hierarchical_scatter_death.png> <../Results/Every_cycle/Hierarchical_plot_death.png> <../Results/Every_cycle/Hierarchical_plot_laied.png>] [11 <../Results/Every_cycle/Spider_Plot.png>] (results.aux)
+ [10 <../Results/Every_cycle/Hierarchical_dendogram.png> <../Results/Every_cycle/Hierarchical_scatter_death.png> <../Results/Every_cycle/Hierarchical_plot_death.png> <../Results/Every_cycle/Hierarchical_plot_laied.png>]
+<../Results/Comparison_Z_AB/Death.png, id=199, 1190.2869pt x 312.2064pt>
+File: ../Results/Comparison_Z_AB/Death.png Graphic file (type png)
+<use ../Results/Comparison_Z_AB/Death.png>
+Package pdftex.def Info: ../Results/Comparison_Z_AB/Death.png  used on input line 458.
+(pdftex.def)             Requested size: 426.79134pt x 111.94165pt.
+ [11 <../Results/Every_cycle/Spider_Plot.png> <../Results/Comparison_Z_AB/Death.png>]
+<../Results/Comparison_Z_AB/Density_distance.png, id=206, 431.4519pt x 312.2064pt>
+File: ../Results/Comparison_Z_AB/Density_distance.png Graphic file (type png)
+<use ../Results/Comparison_Z_AB/Density_distance.png>
+Package pdftex.def Info: ../Results/Comparison_Z_AB/Density_distance.png  used on input line 469.
+(pdftex.def)             Requested size: 199.16928pt x 144.12642pt.
+<../Results/Comparison_Z_AB/Density_Raw.png, id=207, 409.7709pt x 356.2911pt>
+File: ../Results/Comparison_Z_AB/Density_Raw.png Graphic file (type png)
+<use ../Results/Comparison_Z_AB/Density_Raw.png>
+Package pdftex.def Info: ../Results/Comparison_Z_AB/Density_Raw.png  used on input line 473.
+(pdftex.def)             Requested size: 199.16928pt x 173.17609pt.
+<../Results/Comparison_Z_AB/Density_Cleaned.png, id=208, 428.5611pt x 314.3745pt>
+File: ../Results/Comparison_Z_AB/Density_Cleaned.png Graphic file (type png)
+<use ../Results/Comparison_Z_AB/Density_Cleaned.png>
+Package pdftex.def Info: ../Results/Comparison_Z_AB/Density_Cleaned.png  used on input line 479.
+(pdftex.def)             Requested size: 199.16928pt x 146.10587pt.
+<../Results/Comparison_Z_AB/Plot_Clusters.png, id=209, 1190.2869pt x 306.4248pt>
+File: ../Results/Comparison_Z_AB/Plot_Clusters.png Graphic file (type png)
+<use ../Results/Comparison_Z_AB/Plot_Clusters.png>
+Package pdftex.def Info: ../Results/Comparison_Z_AB/Plot_Clusters.png  used on input line 485.
+(pdftex.def)             Requested size: 409.71968pt x 105.47353pt.
+ [12 <../Results/Comparison_Z_AB/Density_distance.png> <../Results/Comparison_Z_AB/Density_Raw.png> <../Results/Comparison_Z_AB/Density_Cleaned.png> <../Results/Comparison_Z_AB/Plot_Clusters.png>] (results.aux)
 Package rerunfilecheck Info: File `results.out' has not changed.
 (rerunfilecheck)             Checksum: 9D82806953CAE4EC871547FE31536731;1788.
  ) 
 Here is how much of TeX's memory you used:
- 13656 strings out of 475389
- 231352 string characters out of 2777000
+ 13693 strings out of 475389
+ 232911 string characters out of 2777000
  566496 words of memory out of 3000000
- 34781 multiletter control sequences out of 15000+600000
+ 34811 multiletter control sequences out of 15000+600000
  477764 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,18n,77p,580b,525s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\canal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on results.pdf (12 pages, 1447942 bytes).
+ <C:\Users\canal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on results.pdf (13 pages, 1785977 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
 

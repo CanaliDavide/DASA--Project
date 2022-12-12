@@ -452,6 +452,44 @@ To better compare the different cycles we made a spider plot with 4 features:
 \section{Organic vs non-organic cycles}
 
 \section{Death-season correlation}
+In this section, we will analyze how the period when the chickens are introduced into the barn affects the mortality rate. This effect will be more visible in the organic cycles where the chickens are more fragile due to a lack of nutrients.
+
+First, we plot the Death Rate of all the organic cycles (Z, A, B).\newline
+\includegraphics[width=\linewidth]{../Results/Comparison_Z_AB/Death.png}
+
+It's clear that the Z cycle outperforms the other two by a lot, so we will analyze what are the differences between those 3 cycles.
+
+The number of chickens at the start of the cycle is identical ($\sim 42.000$), and the feed in an organic farm is standard and checked so it doesn't change between those cycles.
+The difference in mortality cannot be explained with just "a lucky cycle" so we tried to analyze those graphs deeper.
+\begin{center}
+    \begin{tabular}{|c|c|}
+        \hline
+        \subf{\includegraphics[width=70mm]
+        {../Results/Comparison_Z_AB/Density_distance.png}}
+             {k-NN distance to find $\epsilon$}
+        &
+        \subf{\includegraphics[width=70mm]
+        {../Results/Comparison_Z_AB/Density_Raw.png}}
+             {Raw Density}\\
+        \hline
+    \end{tabular}
+    \begin{tabular}{|c|}
+        \subf{\includegraphics[width=70mm]
+        {../Results/Comparison_Z_AB/Density_Cleaned.png}}
+             {Density Cleaned}\\
+    \end{tabular}
+    \begin{tabular}{|c|}
+    \hline
+    \subf{\includegraphics[width=144 mm]
+    {../Results/Comparison_Z_AB/Plot_Clusters.png}}
+         {Percentage of death}
+    \\
+    \hline
+    \end{tabular}
+    
+\end{center}
+
+
 
 \section{Economic results}
 

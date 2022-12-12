@@ -1,5 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1670709045 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1670709049
+["pdflatex"] 1670836433 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1670836438
+  "../Results/Comparison_Z_AB/Death.png" 1670407457 88346 30e3b6c0ff3c29c5f1241047e529d9b5 ""
+  "../Results/Comparison_Z_AB/Density_Cleaned.png" 1670835910 84927 4f356425a94b4573d803dec2f3e82c4d ""
+  "../Results/Comparison_Z_AB/Density_Raw.png" 1670835639 94182 93a5339a6c5b7239b98082178d0969e7 ""
+  "../Results/Comparison_Z_AB/Density_distance.png" 1670835624 41300 ca5e39e8f4afc26ca62237c9ecaa15de ""
+  "../Results/Comparison_Z_AB/Plot_Clusters.png" 1670836060 135305 a5de8d5ccf032ca74c59794de576abb3 ""
   "../Results/Every_cycle/Hierarchical_dendogram.png" 1670703046 17005 c17551720db0129c0b749d69ef5eeab6 ""
   "../Results/Every_cycle/Hierarchical_plot_death.png" 1670703073 156263 b2d6bd2be60149c8596b62de97e2705f ""
   "../Results/Every_cycle/Hierarchical_plot_laied.png" 1670703267 137640 e556493079df194dddd8ea7307709c70 ""
@@ -65,6 +70,7 @@
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247593067 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247593067 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247593066 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247593067 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
@@ -142,11 +148,11 @@
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "PolitecnicoLogo.png" 1663323872 1603524 f461c2be9141e56b96cb59a33a193fe2 ""
-  "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1670709039 15733 094e2a6ac652da0dfd77987f25f75129 ""
-  "results.aux" 1670709049 2333 3bcb7b793562a254c88c9d6969d53276 "pdflatex"
-  "results.out" 1670709049 1788 9d82806953cae4ec871547fe31536731 "pdflatex"
-  "results.tex" 1670709039 15733 094e2a6ac652da0dfd77987f25f75129 ""
-  "results.toc" 1670709049 1110 0c5a7ebfc93a3a523e2b6754827157d0 "pdflatex"
+  "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1670836432 17361 5b0a82567a5812e2e84c954576a9033e ""
+  "results.aux" 1670836437 2333 daeb0411c3b2176d39358dc50e97743c "pdflatex"
+  "results.out" 1670836437 1788 9d82806953cae4ec871547fe31536731 "pdflatex"
+  "results.tex" 1670836432 17361 5b0a82567a5812e2e84c954576a9033e ""
+  "results.toc" 1670836437 1110 13329c56a5d84bfad4585fe7feea7bf1 "pdflatex"
   (generated)
   "results.aux"
   "results.log"
