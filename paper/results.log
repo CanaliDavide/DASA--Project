@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.16)  12 DEC 2022 10:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.16)  12 DEC 2022 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -690,22 +690,27 @@ File: ../Results/Comparison_Z_AB/Plot_Clusters.png Graphic file (type png)
 <use ../Results/Comparison_Z_AB/Plot_Clusters.png>
 Package pdftex.def Info: ../Results/Comparison_Z_AB/Plot_Clusters.png  used on input line 485.
 (pdftex.def)             Requested size: 409.71968pt x 105.47353pt.
- [12 <../Results/Comparison_Z_AB/Density_distance.png> <../Results/Comparison_Z_AB/Density_Raw.png> <../Results/Comparison_Z_AB/Density_Cleaned.png> <../Results/Comparison_Z_AB/Plot_Clusters.png>] (results.aux)
+<../Results/Comparison_Z_AB/feed_plot.png, id=210, 612.03656pt x 158.46703pt>
+File: ../Results/Comparison_Z_AB/feed_plot.png Graphic file (type png)
+<use ../Results/Comparison_Z_AB/feed_plot.png>
+Package pdftex.def Info: ../Results/Comparison_Z_AB/feed_plot.png  used on input line 500.
+(pdftex.def)             Requested size: 426.79134pt x 110.50299pt.
+ [12 <../Results/Comparison_Z_AB/Density_distance.png> <../Results/Comparison_Z_AB/Density_Raw.png> <../Results/Comparison_Z_AB/Density_Cleaned.png> <../Results/Comparison_Z_AB/Plot_Clusters.png>] [13 <../Results/Comparison_Z_AB/feed_plot.png>] (results.aux)
 Package rerunfilecheck Info: File `results.out' has not changed.
 (rerunfilecheck)             Checksum: 9D82806953CAE4EC871547FE31536731;1788.
  ) 
 Here is how much of TeX's memory you used:
- 13693 strings out of 475389
- 232911 string characters out of 2777000
+ 13701 strings out of 475389
+ 233202 string characters out of 2777000
  566496 words of memory out of 3000000
- 34811 multiletter control sequences out of 15000+600000
+ 34817 multiletter control sequences out of 15000+600000
  477764 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,18n,77p,580b,525s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\canal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on results.pdf (13 pages, 1785977 bytes).
+Output written on results.pdf (14 pages, 1870306 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 269 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 
