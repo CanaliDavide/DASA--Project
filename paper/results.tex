@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{xcolor,comment, subfiles, graphicx, caption, longtable, subfig, fancyhdr}
+\usepackage{xcolor, comment, subfiles, graphicx, caption, longtable, subfig, fancyhdr}
 \usepackage{float} %Used to force images to appear in the section in which it's declared
 \usepackage[hidelinks]{hyperref}
 \usepackage{parskip}
@@ -450,6 +450,53 @@ To better compare the different cycles we made a spider plot with 4 features:
 \end{itemize}
 \includegraphics[width=\linewidth]{../Results/Every_cycle/Spider_Plot.png}
 \section{Organic vs non-organic cycles}
+One of the main differences in the cycles under analysis is the breeding method. Cycles A, B, C and Z are grown with organic farming, a method regulated by the European Union with the regulation 589/2008
+modified from text 2168/2017 %da verificare e mettere fonte
+while the cycles Y, X1 and X2 are non-organic.
+We can summarize the main differences:
+
+\begin{center}
+    \begin{tabular}{| c | c | c |} 
+        \hline
+        Charachteristics & Organic & Non-organic \\ [0.5ex] 
+        \hline
+        Chickens$/m^{2}$ & 6 & 9 \\
+        \hline
+        Outdoor access & $\checkmark$ & $\checkmark$ \\
+        \hline
+        Feed requirements & $\checkmark$ & $\times$ \\
+        \hline
+    \end{tabular}
+\end{center}
+
+Given the differences in the breeding methods, we analyze if there are implications in the cycles' behavior. Since the non-organic ones have no information on feed and water consumption, we can't go
+deep into the analysis because of the lack of inputs. For this reason, we will focus mainly on the outputs like the percentage of eggs laid and deaths.
+
+One of the most important outputs is the productivity of a cycle expressed as EggsProduced/#Chickens:
+
+\begin{center}
+    \begin{tabular}{| c | c | c | c |} 
+        \hline
+        Cycle & Organic & Productivity \\ [0.5ex] 
+        \hline
+        A & $\checkmark$ & 481.04 \\ [0.5ex] 
+        \hline
+        B & $\checkmark$ & 436.90 \\ [0.5ex] 
+        \hline
+        Z & $\checkmark$ & 420.63 \\ [0.5ex] 
+        \hline
+        X1 & $\times$ & 366.77 \\ [0.5ex] 
+        \hline
+        X2 & $\times$ & 316.29 \\ [0.5ex] 
+        \hline
+        Y & $\times$ & 292.25 \\ [0.5ex] 
+        \hline
+    \end{tabular}
+\end{center}
+
+\includegraphics[width=\linewidth]{../Results/OrganingOrNot/Laid.png}
+\includegraphics[width=\linewidth]{../Results/OrganingOrNot/DeathPerc.png}
+
 
 \section{Death-season correlation}
 
