@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1670851514 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1670851519
+["pdflatex"] 1670852200 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1670852206
   "../Results/Comparison_Z_AB/Death.png" 1670407457 88346 30e3b6c0ff3c29c5f1241047e529d9b5 ""
   "../Results/Comparison_Z_AB/Density_Cleaned.png" 1670835910 84927 4f356425a94b4573d803dec2f3e82c4d ""
   "../Results/Comparison_Z_AB/Density_Raw.png" 1670835639 94182 93a5339a6c5b7239b98082178d0969e7 ""
@@ -11,6 +11,8 @@
   "../Results/Every_cycle/Hierarchical_plot_laied.png" 1670840224 137217 aca5fa59ce397a51d7ad6d3bd4ded951 ""
   "../Results/Every_cycle/Hierarchical_scatter_death.png" 1670703058 66168 883af0f2b8ab145d72a35bfb2ce7adf1 ""
   "../Results/Every_cycle/Spider_Plot.png" 1670707330 166314 4e8e3e0ed8e52938334d026a684ff316 ""
+  "../Results/OrganingOrNot/DeathPerc.png" 1670852003 100527 4a542ad7bbe21e2672a51832a5833ab6 ""
+  "../Results/OrganingOrNot/Laid.png" 1670852003 100569 eecab109a36debdaf142ccfebab0d809 ""
   "../Results/Two_clusters_division/CycleA/Density_epsilon.png" 1670683627 43800 32975727bfeb2b22205845ed146c3cc1 ""
   "../Results/Two_clusters_division/CycleA/Density_plot_death.png" 1670683766 69639 1fa5e86e999ad3aa959194d5ccefcd77 ""
   "../Results/Two_clusters_division/CycleA/Density_plot_laied.png" 1670683783 61966 14fe5219ef5449544767014983313f4f ""
@@ -71,7 +73,9 @@
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247593067 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247593067 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247593066 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247593067 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247593067 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247593073 31764 459c573c03a4949a528c2cc7f557e217 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
@@ -149,11 +153,11 @@
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "PolitecnicoLogo.png" 1663323872 1603524 f461c2be9141e56b96cb59a33a193fe2 ""
-  "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1670851513 18801 5008c54c58bc0928238b84522b05c0a3 ""
-  "results.aux" 1670851518 2333 314812578874a4746bff0d29065ace65 "pdflatex"
-  "results.out" 1670851518 1788 9d82806953cae4ec871547fe31536731 "pdflatex"
-  "results.tex" 1670851513 18801 5008c54c58bc0928238b84522b05c0a3 ""
-  "results.toc" 1670851518 1110 dcbe24e7c9e02dc20ca00059820a7d24 "pdflatex"
+  "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1670852003 22532 9c0efd6b5f0d6cf970562d2e32843e3b ""
+  "results.aux" 1670852205 2333 4a3bd5ca628f42538cdbf398e5513daf "pdflatex"
+  "results.out" 1670852205 1788 9d82806953cae4ec871547fe31536731 "pdflatex"
+  "results.tex" 1670852003 22532 9c0efd6b5f0d6cf970562d2e32843e3b ""
+  "results.toc" 1670852205 1110 910d267499f209d054e8be822fa206ee "pdflatex"
   (generated)
   "results.aux"
   "results.log"
