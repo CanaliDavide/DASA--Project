@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.26)  12 DEC 2022 11:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.26)  12 DEC 2022 17:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -467,7 +467,7 @@ Package hyperref Info: Link coloring OFF on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<PolitecnicoLogo.png, id=63, 803.0pt x 501.875pt>
+<PolitecnicoLogo.png, id=67, 803.0pt x 501.875pt>
 File: PolitecnicoLogo.png Graphic file (type png)
 <use PolitecnicoLogo.png>
 Package pdftex.def Info: PolitecnicoLogo.png  used on input line 41.
@@ -491,231 +491,231 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.70 \newpage
               [1] [2]
-<../Results/Two_clusters_division/CycleA/Density_epsilon.png, id=100, 428.5611pt x 314.3745pt>
+<../Results/Two_clusters_division/CycleA/Density_epsilon.png, id=105, 428.5611pt x 314.3745pt>
 File: ../Results/Two_clusters_division/CycleA/Density_epsilon.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleA/Density_epsilon.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleA/Density_epsilon.png  used on input line 128.
 (pdftex.def)             Requested size: 199.16928pt x 146.10587pt.
-<../Results/Two_clusters_division/CycleA/Density_scatter_merged.png, id=101, 409.7709pt x 328.8285pt>
+<../Results/Two_clusters_division/CycleA/Density_scatter_merged.png, id=106, 409.7709pt x 328.8285pt>
 File: ../Results/Two_clusters_division/CycleA/Density_scatter_merged.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleA/Density_scatter_merged.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleA/Density_scatter_merged.png  used on input line 132.
 (pdftex.def)             Requested size: 199.16928pt x 159.82784pt.
-<../Results/Two_clusters_division/CycleA/Density_plot_death.png, id=102, 428.5611pt x 307.1475pt>
+<../Results/Two_clusters_division/CycleA/Density_plot_death.png, id=107, 428.5611pt x 307.1475pt>
 File: ../Results/Two_clusters_division/CycleA/Density_plot_death.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleA/Density_plot_death.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleA/Density_plot_death.png  used on input line 137.
 (pdftex.def)             Requested size: 199.16928pt x 142.74712pt.
-<../Results/Two_clusters_division/CycleA/Density_plot_laied.png, id=103, 416.2752pt x 304.2567pt>
+<../Results/Two_clusters_division/CycleA/Density_plot_laied.png, id=108, 416.2752pt x 304.2567pt>
 File: ../Results/Two_clusters_division/CycleA/Density_plot_laied.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleA/Density_plot_laied.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleA/Density_plot_laied.png  used on input line 141.
 (pdftex.def)             Requested size: 199.16928pt x 145.57265pt.
  [3 <../Results/Two_clusters_division/CycleA/Density_epsilon.png> <../Results/Two_clusters_division/CycleA/Density_scatter_merged.png> <../Results/Two_clusters_division/CycleA/Density_plot_death.png> <../Results/Two_clusters_division/CycleA/Density_plot_laied.png>]
-<../Results/Two_clusters_division/CycleB/Hierarchical_dendogram.png, id=113, 388.0899pt x 314.3745pt>
+<../Results/Two_clusters_division/CycleB/Hierarchical_dendogram.png, id=118, 388.0899pt x 314.3745pt>
 File: ../Results/Two_clusters_division/CycleB/Hierarchical_dendogram.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleB/Hierarchical_dendogram.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleB/Hierarchical_dendogram.png  used on input line 172.
 (pdftex.def)             Requested size: 199.16928pt x 161.34102pt.
-<../Results/Two_clusters_division/CycleB/Hierarchical_scatter.png, id=114, 409.7709pt x 328.8285pt>
+<../Results/Two_clusters_division/CycleB/Hierarchical_scatter.png, id=119, 409.7709pt x 328.8285pt>
 File: ../Results/Two_clusters_division/CycleB/Hierarchical_scatter.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleB/Hierarchical_scatter.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleB/Hierarchical_scatter.png  used on input line 176.
 (pdftex.def)             Requested size: 199.16928pt x 159.82784pt.
-<../Results/Two_clusters_division/CycleB/Hierarchical_plot_death.png, id=115, 428.5611pt x 306.4248pt>
+<../Results/Two_clusters_division/CycleB/Hierarchical_plot_death.png, id=120, 428.5611pt x 306.4248pt>
 File: ../Results/Two_clusters_division/CycleB/Hierarchical_plot_death.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleB/Hierarchical_plot_death.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleB/Hierarchical_plot_death.png  used on input line 181.
 (pdftex.def)             Requested size: 199.16928pt x 142.41124pt.
-<../Results/Two_clusters_division/CycleB/Hierarchical_plot_laied.png, id=116, 409.7709pt x 304.2567pt>
+<../Results/Two_clusters_division/CycleB/Hierarchical_plot_laied.png, id=121, 409.7709pt x 304.2567pt>
 File: ../Results/Two_clusters_division/CycleB/Hierarchical_plot_laied.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleB/Hierarchical_plot_laied.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleB/Hierarchical_plot_laied.png  used on input line 185.
 (pdftex.def)             Requested size: 199.16928pt x 147.88466pt.
-<../Results/Two_clusters_division/CycleC/Hierarchical_dendogram.png, id=117, 386.6445pt x 314.3745pt>
+<../Results/Two_clusters_division/CycleC/Hierarchical_dendogram.png, id=122, 386.6445pt x 314.3745pt>
 File: ../Results/Two_clusters_division/CycleC/Hierarchical_dendogram.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleC/Hierarchical_dendogram.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleC/Hierarchical_dendogram.png  used on input line 216.
 (pdftex.def)             Requested size: 199.16928pt x 161.94064pt.
-<../Results/Two_clusters_division/CycleC/Hierarchical_scatter.png, id=118, 409.7709pt x 328.8285pt>
+<../Results/Two_clusters_division/CycleC/Hierarchical_scatter.png, id=123, 409.7709pt x 328.8285pt>
 File: ../Results/Two_clusters_division/CycleC/Hierarchical_scatter.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleC/Hierarchical_scatter.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleC/Hierarchical_scatter.png  used on input line 220.
 (pdftex.def)             Requested size: 199.16928pt x 159.82784pt.
-<../Results/Two_clusters_division/CycleC/Hierarchical_plot_death.png, id=119, 428.5611pt x 279.6849pt>
+<../Results/Two_clusters_division/CycleC/Hierarchical_plot_death.png, id=124, 428.5611pt x 279.6849pt>
 File: ../Results/Two_clusters_division/CycleC/Hierarchical_plot_death.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleC/Hierarchical_plot_death.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleC/Hierarchical_plot_death.png  used on input line 225.
 (pdftex.def)             Requested size: 199.16928pt x 129.98384pt.
-<../Results/Two_clusters_division/CycleC/Hierarchical_plot_laied.png, id=120, 409.7709pt x 279.6849pt>
+<../Results/Two_clusters_division/CycleC/Hierarchical_plot_laied.png, id=125, 409.7709pt x 279.6849pt>
 File: ../Results/Two_clusters_division/CycleC/Hierarchical_plot_laied.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleC/Hierarchical_plot_laied.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleC/Hierarchical_plot_laied.png  used on input line 229.
 (pdftex.def)             Requested size: 199.16928pt x 135.94148pt.
  [4 <../Results/Two_clusters_division/CycleB/Hierarchical_dendogram.png> <../Results/Two_clusters_division/CycleB/Hierarchical_scatter.png> <../Results/Two_clusters_division/CycleB/Hierarchical_plot_death.png> <../Results/Two_clusters_division/CycleB/Hierarchical_plot_laied.png>]
-<../Results/Two_clusters_division/CycleX1/KMeans_silhouette.png, id=129, 416.2752pt x 328.8285pt>
+<../Results/Two_clusters_division/CycleX1/KMeans_silhouette.png, id=134, 416.2752pt x 328.8285pt>
 File: ../Results/Two_clusters_division/CycleX1/KMeans_silhouette.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleX1/KMeans_silhouette.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleX1/KMeans_silhouette.png  used on input line 260.
 (pdftex.def)             Requested size: 199.16928pt x 157.32912pt.
-<../Results/Two_clusters_division/CycleX1/KMeans_scatter.png, id=130, 409.7709pt x 328.8285pt>
+<../Results/Two_clusters_division/CycleX1/KMeans_scatter.png, id=135, 409.7709pt x 328.8285pt>
 File: ../Results/Two_clusters_division/CycleX1/KMeans_scatter.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleX1/KMeans_scatter.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleX1/KMeans_scatter.png  used on input line 264.
 (pdftex.def)             Requested size: 199.16928pt x 159.82784pt.
-<../Results/Two_clusters_division/CycleX1/KMeans_plot_death.png, id=131, 428.5611pt x 304.2567pt>
+<../Results/Two_clusters_division/CycleX1/KMeans_plot_death.png, id=136, 428.5611pt x 304.2567pt>
 File: ../Results/Two_clusters_division/CycleX1/KMeans_plot_death.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleX1/KMeans_plot_death.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleX1/KMeans_plot_death.png  used on input line 269.
 (pdftex.def)             Requested size: 199.16928pt x 141.40361pt.
-<../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png, id=132, 409.7709pt x 304.9794pt>
+<../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png, id=137, 409.7709pt x 304.9794pt>
 File: ../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png  used on input line 273.
 (pdftex.def)             Requested size: 199.16928pt x 148.23593pt.
  [5 <../Results/Two_clusters_division/CycleC/Hierarchical_dendogram.png> <../Results/Two_clusters_division/CycleC/Hierarchical_scatter.png> <../Results/Two_clusters_division/CycleC/Hierarchical_plot_death.png> <../Results/Two_clusters_division/CycleC/Hierarchical_plot_laied.png>]
-<../Results/Two_clusters_division/CycleX2/Hierarchical_dendogram.png, id=141, 387.3672pt x 314.3745pt>
+<../Results/Two_clusters_division/CycleX2/Hierarchical_dendogram.png, id=146, 387.3672pt x 314.3745pt>
 File: ../Results/Two_clusters_division/CycleX2/Hierarchical_dendogram.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleX2/Hierarchical_dendogram.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleX2/Hierarchical_dendogram.png  used on input line 304.
 (pdftex.def)             Requested size: 199.16928pt x 161.63843pt.
-<../Results/Two_clusters_division/CycleX2/Hierarchical_scatter.png, id=142, 409.7709pt x 328.8285pt>
+<../Results/Two_clusters_division/CycleX2/Hierarchical_scatter.png, id=147, 409.7709pt x 328.8285pt>
 File: ../Results/Two_clusters_division/CycleX2/Hierarchical_scatter.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleX2/Hierarchical_scatter.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleX2/Hierarchical_scatter.png  used on input line 308.
 (pdftex.def)             Requested size: 199.16928pt x 159.82784pt.
-<../Results/Two_clusters_division/CycleX2/Hierarchical_plot_death.png, id=143, 435.0654pt x 304.2567pt>
+<../Results/Two_clusters_division/CycleX2/Hierarchical_plot_death.png, id=148, 435.0654pt x 304.2567pt>
 File: ../Results/Two_clusters_division/CycleX2/Hierarchical_plot_death.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleX2/Hierarchical_plot_death.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleX2/Hierarchical_plot_death.png  used on input line 313.
 (pdftex.def)             Requested size: 199.16928pt x 139.2866pt.
-<../Results/Two_clusters_division/CycleX2/Hierarchical_plot_laied.png, id=144, 422.0568pt x 304.2567pt>
+<../Results/Two_clusters_division/CycleX2/Hierarchical_plot_laied.png, id=149, 422.0568pt x 304.2567pt>
 File: ../Results/Two_clusters_division/CycleX2/Hierarchical_plot_laied.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleX2/Hierarchical_plot_laied.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleX2/Hierarchical_plot_laied.png  used on input line 317.
 (pdftex.def)             Requested size: 199.16928pt x 143.58098pt.
  [6 <../Results/Two_clusters_division/CycleX1/KMeans_silhouette.png> <../Results/Two_clusters_division/CycleX1/KMeans_scatter.png> <../Results/Two_clusters_division/CycleX1/KMeans_plot_death.png> <../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png>]
-<../Results/Two_clusters_division/CycleY/KMeans_silhouette.png, id=154, 416.2752pt x 328.8285pt>
+<../Results/Two_clusters_division/CycleY/KMeans_silhouette.png, id=159, 416.2752pt x 328.8285pt>
 File: ../Results/Two_clusters_division/CycleY/KMeans_silhouette.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleY/KMeans_silhouette.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleY/KMeans_silhouette.png  used on input line 348.
 (pdftex.def)             Requested size: 199.16928pt x 157.32912pt.
-<../Results/Two_clusters_division/CycleY/KMeans_scatter.png, id=155, 409.7709pt x 328.8285pt>
+<../Results/Two_clusters_division/CycleY/KMeans_scatter.png, id=160, 409.7709pt x 328.8285pt>
 File: ../Results/Two_clusters_division/CycleY/KMeans_scatter.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleY/KMeans_scatter.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleY/KMeans_scatter.png  used on input line 352.
 (pdftex.def)             Requested size: 199.16928pt x 159.82784pt.
-<../Results/Two_clusters_division/CycleY/KMeans_plot_death.png, id=156, 428.5611pt x 304.2567pt>
+<../Results/Two_clusters_division/CycleY/KMeans_plot_death.png, id=161, 428.5611pt x 304.2567pt>
 File: ../Results/Two_clusters_division/CycleY/KMeans_plot_death.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleY/KMeans_plot_death.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleY/KMeans_plot_death.png  used on input line 357.
 (pdftex.def)             Requested size: 199.16928pt x 141.40361pt.
-<../Results/Two_clusters_division/CycleY/KMeans_plot_laied.png, id=157, 416.2752pt x 304.2567pt>
+<../Results/Two_clusters_division/CycleY/KMeans_plot_laied.png, id=162, 416.2752pt x 304.2567pt>
 File: ../Results/Two_clusters_division/CycleY/KMeans_plot_laied.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleY/KMeans_plot_laied.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleY/KMeans_plot_laied.png  used on input line 361.
 (pdftex.def)             Requested size: 199.16928pt x 145.57265pt.
  [7 <../Results/Two_clusters_division/CycleX2/Hierarchical_dendogram.png> <../Results/Two_clusters_division/CycleX2/Hierarchical_scatter.png> <../Results/Two_clusters_division/CycleX2/Hierarchical_plot_death.png> <../Results/Two_clusters_division/CycleX2/Hierarchical_plot_laied.png>]
-<../Results/Two_clusters_division/CycleZ/Hierarchical_dendogram.png, id=166, 388.0899pt x 314.3745pt>
+<../Results/Two_clusters_division/CycleZ/Hierarchical_dendogram.png, id=171, 388.0899pt x 314.3745pt>
 File: ../Results/Two_clusters_division/CycleZ/Hierarchical_dendogram.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleZ/Hierarchical_dendogram.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleZ/Hierarchical_dendogram.png  used on input line 392.
 (pdftex.def)             Requested size: 199.16928pt x 161.34102pt.
-<../Results/Two_clusters_division/CycleZ/Hierarchical_scatter.png, id=167, 409.7709pt x 328.8285pt>
+<../Results/Two_clusters_division/CycleZ/Hierarchical_scatter.png, id=172, 409.7709pt x 328.8285pt>
 File: ../Results/Two_clusters_division/CycleZ/Hierarchical_scatter.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleZ/Hierarchical_scatter.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleZ/Hierarchical_scatter.png  used on input line 396.
 (pdftex.def)             Requested size: 199.16928pt x 159.82784pt.
-<../Results/Two_clusters_division/CycleZ/Hierarchical_plot_death.png, id=168, 435.0654pt x 304.2567pt>
+<../Results/Two_clusters_division/CycleZ/Hierarchical_plot_death.png, id=173, 435.0654pt x 304.2567pt>
 File: ../Results/Two_clusters_division/CycleZ/Hierarchical_plot_death.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleZ/Hierarchical_plot_death.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleZ/Hierarchical_plot_death.png  used on input line 401.
 (pdftex.def)             Requested size: 199.16928pt x 139.2866pt.
-<../Results/Two_clusters_division/CycleZ/Hierarchical_plot_laied.png, id=169, 416.2752pt x 304.2567pt>
+<../Results/Two_clusters_division/CycleZ/Hierarchical_plot_laied.png, id=174, 416.2752pt x 304.2567pt>
 File: ../Results/Two_clusters_division/CycleZ/Hierarchical_plot_laied.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleZ/Hierarchical_plot_laied.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleZ/Hierarchical_plot_laied.png  used on input line 405.
 (pdftex.def)             Requested size: 199.16928pt x 145.57265pt.
  [8 <../Results/Two_clusters_division/CycleY/KMeans_silhouette.png> <../Results/Two_clusters_division/CycleY/KMeans_scatter.png> <../Results/Two_clusters_division/CycleY/KMeans_plot_death.png> <../Results/Two_clusters_division/CycleY/KMeans_plot_laied.png>]
-<../Results/Every_cycle/Hierarchical_dendogram.png, id=178, 394.5942pt x 317.2653pt>
+<../Results/Every_cycle/Hierarchical_dendogram.png, id=183, 394.5942pt x 317.2653pt>
 File: ../Results/Every_cycle/Hierarchical_dendogram.png Graphic file (type png)
 <use ../Results/Every_cycle/Hierarchical_dendogram.png>
 Package pdftex.def Info: ../Results/Every_cycle/Hierarchical_dendogram.png  used on input line 420.
 (pdftex.def)             Requested size: 199.16928pt x 160.14267pt.
-<../Results/Every_cycle/Hierarchical_scatter_death.png, id=179, 409.7709pt x 328.8285pt>
+<../Results/Every_cycle/Hierarchical_scatter_death.png, id=184, 409.7709pt x 328.8285pt>
 File: ../Results/Every_cycle/Hierarchical_scatter_death.png Graphic file (type png)
 <use ../Results/Every_cycle/Hierarchical_scatter_death.png>
 Package pdftex.def Info: ../Results/Every_cycle/Hierarchical_scatter_death.png  used on input line 424.
 (pdftex.def)             Requested size: 199.16928pt x 159.82784pt.
-<../Results/Every_cycle/Hierarchical_plot_death.png, id=180, 1190.2869pt x 306.4248pt>
+<../Results/Every_cycle/Hierarchical_plot_death.png, id=185, 1190.2869pt x 306.4248pt>
 File: ../Results/Every_cycle/Hierarchical_plot_death.png Graphic file (type png)
 <use ../Results/Every_cycle/Hierarchical_plot_death.png>
 Package pdftex.def Info: ../Results/Every_cycle/Hierarchical_plot_death.png  used on input line 430.
 (pdftex.def)             Requested size: 409.71968pt x 105.47353pt.
-<../Results/Every_cycle/Hierarchical_plot_laied.png, id=181, 1171.4967pt x 304.2567pt>
+<../Results/Every_cycle/Hierarchical_plot_laied.png, id=186, 1171.4967pt x 304.2567pt>
 File: ../Results/Every_cycle/Hierarchical_plot_laied.png Graphic file (type png)
 <use ../Results/Every_cycle/Hierarchical_plot_laied.png>
 Package pdftex.def Info: ../Results/Every_cycle/Hierarchical_plot_laied.png  used on input line 434.
 (pdftex.def)             Requested size: 409.71968pt x 106.4125pt.
  [9 <../Results/Two_clusters_division/CycleZ/Hierarchical_dendogram.png> <../Results/Two_clusters_division/CycleZ/Hierarchical_scatter.png> <../Results/Two_clusters_division/CycleZ/Hierarchical_plot_death.png> <../Results/Two_clusters_division/CycleZ/Hierarchical_plot_laied.png>]
-<../Results/Every_cycle/Spider_Plot.png, id=190, 611.4042pt x 572.3784pt>
+<../Results/Every_cycle/Spider_Plot.png, id=195, 611.4042pt x 572.3784pt>
 File: ../Results/Every_cycle/Spider_Plot.png Graphic file (type png)
 <use ../Results/Every_cycle/Spider_Plot.png>
 Package pdftex.def Info: ../Results/Every_cycle/Spider_Plot.png  used on input line 451.
 (pdftex.def)             Requested size: 426.79134pt x 399.56169pt.
  [10 <../Results/Every_cycle/Hierarchical_dendogram.png> <../Results/Every_cycle/Hierarchical_scatter_death.png> <../Results/Every_cycle/Hierarchical_plot_death.png> <../Results/Every_cycle/Hierarchical_plot_laied.png>] [11 <../Results/Every_cycle/Spider_Plot.png>]
-<../Results/OrganingOrNot/Laid.png, id=207, 1178.001pt x 314.3745pt>
+<../Results/OrganingOrNot/Laid.png, id=212, 1178.001pt x 314.3745pt>
 File: ../Results/OrganingOrNot/Laid.png Graphic file (type png)
 <use ../Results/OrganingOrNot/Laid.png>
 Package pdftex.def Info: ../Results/OrganingOrNot/Laid.png  used on input line 501.
 (pdftex.def)             Requested size: 426.79134pt x 113.89906pt.
-<../Results/OrganingOrNot/DeathPerc.png, id=208, 1190.2869pt x 312.2064pt>
+<../Results/OrganingOrNot/DeathPerc.png, id=213, 1190.2869pt x 312.2064pt>
 File: ../Results/OrganingOrNot/DeathPerc.png Graphic file (type png)
 <use ../Results/OrganingOrNot/DeathPerc.png>
 Package pdftex.def Info: ../Results/OrganingOrNot/DeathPerc.png  used on input line 533.
 (pdftex.def)             Requested size: 426.79134pt x 111.94165pt.
  [12 <../Results/OrganingOrNot/Laid.png> <../Results/OrganingOrNot/DeathPerc.png>]
-<../Results/Comparison_Z_AB/Death.png, id=216, 1190.2869pt x 312.2064pt>
+<../Results/Comparison_Z_AB/Death.png, id=221, 1190.2869pt x 312.2064pt>
 File: ../Results/Comparison_Z_AB/Death.png Graphic file (type png)
 <use ../Results/Comparison_Z_AB/Death.png>
 Package pdftex.def Info: ../Results/Comparison_Z_AB/Death.png  used on input line 540.
 (pdftex.def)             Requested size: 426.79134pt x 111.94165pt.
-<../Results/Comparison_Z_AB/Density_distance.png, id=217, 431.4519pt x 312.2064pt>
+<../Results/Comparison_Z_AB/Density_distance.png, id=222, 431.4519pt x 312.2064pt>
 File: ../Results/Comparison_Z_AB/Density_distance.png Graphic file (type png)
 <use ../Results/Comparison_Z_AB/Density_distance.png>
 Package pdftex.def Info: ../Results/Comparison_Z_AB/Density_distance.png  used on input line 551.
 (pdftex.def)             Requested size: 199.16928pt x 144.12642pt.
-<../Results/Comparison_Z_AB/Density_Raw.png, id=218, 409.7709pt x 356.2911pt>
+<../Results/Comparison_Z_AB/Density_Raw.png, id=223, 409.7709pt x 356.2911pt>
 File: ../Results/Comparison_Z_AB/Density_Raw.png Graphic file (type png)
 <use ../Results/Comparison_Z_AB/Density_Raw.png>
 Package pdftex.def Info: ../Results/Comparison_Z_AB/Density_Raw.png  used on input line 555.
 (pdftex.def)             Requested size: 199.16928pt x 173.17609pt.
-<../Results/Comparison_Z_AB/Density_Cleaned.png, id=219, 428.5611pt x 314.3745pt>
+<../Results/Comparison_Z_AB/Density_Cleaned.png, id=224, 428.5611pt x 314.3745pt>
 File: ../Results/Comparison_Z_AB/Density_Cleaned.png Graphic file (type png)
 <use ../Results/Comparison_Z_AB/Density_Cleaned.png>
 Package pdftex.def Info: ../Results/Comparison_Z_AB/Density_Cleaned.png  used on input line 561.
 (pdftex.def)             Requested size: 199.16928pt x 146.10587pt.
-<../Results/Comparison_Z_AB/Plot_Clusters.png, id=220, 1190.2869pt x 306.4248pt>
+<../Results/Comparison_Z_AB/Plot_Clusters.png, id=225, 1190.2869pt x 306.4248pt>
 File: ../Results/Comparison_Z_AB/Plot_Clusters.png Graphic file (type png)
 <use ../Results/Comparison_Z_AB/Plot_Clusters.png>
 Package pdftex.def Info: ../Results/Comparison_Z_AB/Plot_Clusters.png  used on input line 567.
 (pdftex.def)             Requested size: 409.71968pt x 105.47353pt.
  [13 <../Results/Comparison_Z_AB/Death.png> <../Results/Comparison_Z_AB/Density_distance.png> <../Results/Comparison_Z_AB/Density_Raw.png> <../Results/Comparison_Z_AB/Density_Cleaned.png>] [14 <../Results/Comparison_Z_AB/Plot_Clusters.png>] (results.aux)
 Package rerunfilecheck Info: File `results.out' has not changed.
-(rerunfilecheck)             Checksum: 9D82806953CAE4EC871547FE31536731;1788.
+(rerunfilecheck)             Checksum: 07236C801F1BAF19966B40EBC68AF0EE;1958.
  ) 
 Here is how much of TeX's memory you used:
- 13729 strings out of 475284
- 234354 string characters out of 2774104
+ 13731 strings out of 475284
+ 234374 string characters out of 2774104
  572845 words of memory out of 3000000
- 34948 multiletter control sequences out of 15000+600000
+ 34949 multiletter control sequences out of 15000+600000
  477764 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,18n,77p,636b,525s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\fcami\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on results.pdf (15 pages, 1960733 bytes).
+Output written on results.pdf (15 pages, 1962786 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 291 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 334 words of extra memory for PDF output out of 10000 (max. 10000000)
 
