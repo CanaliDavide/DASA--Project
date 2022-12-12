@@ -472,29 +472,64 @@ We can summarize the main differences:
 Given the differences in the breeding methods, we analyze if there are implications in the cycles' behavior. Since the non-organic ones have no information on feed and water consumption, we can't go
 deep into the analysis because of the lack of inputs. For this reason, we will focus mainly on the outputs like the percentage of eggs laid and deaths.
 
-One of the most important outputs is the productivity of a cycle expressed as EggsProduced/#Chickens:
+One of the most important outputs is the productivity of a cycle expressed as EggsProduced\/\#Chickens. In the following results, we exclude cycle C since it is in progress. Furthermore, we round the 
+data to the second digit.
 
 \begin{center}
-    \begin{tabular}{| c | c | c | c |} 
+    \begin{tabular}{| c | c | c | c | c |} 
         \hline
-        Cycle & Organic & Productivity \\ [0.5ex] 
+        Cycle & Organic & Productivity & Breeding days & Productivity/Breeding days  \\ [0.5ex] 
         \hline
-        A & $\checkmark$ & 481.04 \\ [0.5ex] 
+        A & $\checkmark$ & 481.04 & 627 & 0.77 \\ [0.5ex] 
         \hline
-        B & $\checkmark$ & 436.90 \\ [0.5ex] 
+        B & $\checkmark$ & 436.90 & 586 &  0.75 \\ [0.5ex] 
         \hline
-        Z & $\checkmark$ & 420.63 \\ [0.5ex] 
+        Z & $\checkmark$ & 420.63 & 505 & 0.83 \\ [0.5ex] 
         \hline
-        X1 & $\times$ & 366.77 \\ [0.5ex] 
+        X1 & $\times$ & 366.77 & 478 & 0.77\\ [0.5ex] 
         \hline
-        X2 & $\times$ & 316.29 \\ [0.5ex] 
+        X2 & $\times$ & 316.29 & 342 & 0.92\\ [0.5ex] 
         \hline
-        Y & $\times$ & 292.25 \\ [0.5ex] 
+        Y & $\times$ & 292.25 & 359 & 0.81 \\ [0.5ex] 
         \hline
     \end{tabular}
 \end{center}
 
+We can notice that non-organic cycles have a lower EggsProduced/\#Chickens rate than the organic ones, but considering the days of breeding the non-organic cycles are better.
+The medium Productivity\/Breeding days of an organic cycle is 0.78 while the one of non-organic is 0.84.
+
 \includegraphics[width=\linewidth]{../Results/OrganingOrNot/Laid.png}
+
+Beyond the productivity in terms of eggs produced there is another important aspect to consider which is the chickens' health. Since it is a difficult feature to value, 
+we decided to consider the chickens' death percentage on the number of chickens as a health indicator.
+
+\begin{center}
+    \begin{tabular}{| c | c | c | c | c |} 
+        \hline
+        Cycle & Organic & Deaths on chickens & Breeding days & Daily deaths average \\ [0.5ex] 
+        \hline
+        A & $\checkmark$ & 0.24 & 627 & 16.18 \\ [0.5ex] 
+        \hline
+        B & $\checkmark$ & 0.25 & 586 & 18.07 \\ [0.5ex] 
+        \hline
+        Z & $\checkmark$ & 0.10 & 505 & 8.53 \\ [0.5ex] 
+        \hline
+        X1 & $\times$ & 0.14 & 478 & 10.10 \\ [0.5ex] 
+        \hline
+        X2 & $\times$ & 0.07 & 342 & 4.93 \\ [0.5ex] 
+        \hline
+        Y & $\times$ & 0.07 & 359 & 12.03 \\ [0.5ex] 
+        \hline
+    \end{tabular}
+\end{center}
+
+It is evident that in organic cycles the deaths on chickens' number is much higher than in the non-organic ones. So we decided to better understand the reason of this behavior.
+This question could have a different ways to be answered or a mix of them:
+- Different feeds quality
+- Different water consumption
+- ...
+So we decided to look for correlations:
+
 \includegraphics[width=\linewidth]{../Results/OrganingOrNot/DeathPerc.png}
 
 

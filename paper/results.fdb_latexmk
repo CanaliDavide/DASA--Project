@@ -1,5 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1670838198 "c:/Users/fcami/OneDrive - Politecnico di Milano/ANNO 4/Data Analytics For Agricolture/Project/paper/results.tex" "results.pdf" "results" 1670838202 2
+["pdflatex"] 1670842239 "c:/Users/fcami/OneDrive - Politecnico di Milano/ANNO 4/Data Analytics For Agricolture/Project/paper/results.tex" "results.pdf" "results" 1670842242 0
+  "../Results/Comparison_Z_AB/Death.png" 1670421519 88346 30e3b6c0ff3c29c5f1241047e529d9b5 ""
+  "../Results/Comparison_Z_AB/Density_Cleaned.png" 1670838388 84927 4f356425a94b4573d803dec2f3e82c4d ""
+  "../Results/Comparison_Z_AB/Density_Raw.png" 1670838388 94182 93a5339a6c5b7239b98082178d0969e7 ""
+  "../Results/Comparison_Z_AB/Density_distance.png" 1670421519 41300 ca5e39e8f4afc26ca62237c9ecaa15de ""
+  "../Results/Comparison_Z_AB/Plot_Clusters.png" 1670838388 135305 a5de8d5ccf032ca74c59794de576abb3 ""
   "../Results/Every_cycle/Hierarchical_dendogram.png" 1670832182 17005 c17551720db0129c0b749d69ef5eeab6 ""
   "../Results/Every_cycle/Hierarchical_plot_death.png" 1670832182 156263 b2d6bd2be60149c8596b62de97e2705f ""
   "../Results/Every_cycle/Hierarchical_plot_laied.png" 1670832182 137640 e556493079df194dddd8ea7307709c70 ""
@@ -147,11 +152,11 @@
   "C:/Users/fcami/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/fcami/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "PolitecnicoLogo.png" 1670321078 1603524 f461c2be9141e56b96cb59a33a193fe2 ""
-  "c:/Users/fcami/OneDrive - Politecnico di Milano/ANNO 4/Data Analytics For Agricolture/Project/paper/results.tex" 1670838198 17623 da7e38b0f29ca113a7090565255b256f ""
-  "results.aux" 1670838202 2333 d66e25e493cd12c56f877217d7f55c5b "pdflatex"
-  "results.out" 1670838202 1788 9d82806953cae4ec871547fe31536731 "pdflatex"
-  "results.tex" 1670838198 17623 da7e38b0f29ca113a7090565255b256f ""
-  "results.toc" 1670838202 1110 676f78edea717b82011cb4a197498ae0 "pdflatex"
+  "c:/Users/fcami/OneDrive - Politecnico di Milano/ANNO 4/Data Analytics For Agricolture/Project/paper/results.tex" 1670842235 21092 debc25a2e90f98fd6ca3ddbbe59e0096 ""
+  "results.aux" 1670842242 2333 4a3bd5ca628f42538cdbf398e5513daf "pdflatex"
+  "results.out" 1670842242 1788 9d82806953cae4ec871547fe31536731 "pdflatex"
+  "results.tex" 1670842235 21092 debc25a2e90f98fd6ca3ddbbe59e0096 ""
+  "results.toc" 1670842242 1110 910d267499f209d054e8be822fa206ee "pdflatex"
   (generated)
   "results.aux"
   "results.log"
