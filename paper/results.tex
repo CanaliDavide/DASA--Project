@@ -589,8 +589,23 @@ After discussing it with the farmer we conclude that the summer is the most chal
 
 To overcome those problems it seems that starting the cycle in mid-winter improves the mortality rate since during the summer the chickens are younger and stronger.
 
-To put it in perspective, cycle Z had 4308 death compared to cycles A and B which had respectively 10143 and 10588 death across all of the cycle.
+To put it in perspective, cycle Z had 4308 deaths compared to cycles A and B which had respectively 7449 deaths and 9130 deaths across the same period.
 This help the production of cycle Z which, in the same period, produced 500.000 more eggs than cycle A and 1.200.000 more eggs than cycle B. Which is respectively an increment of 2\% and a 7\% in eggs produced.
+
+\section{Cycle C}
+Cycle C is a particular cycle, it is an organic cycle so it has the same characteristics as cycles Z, A and B but from this one, a new regulation has been introduced. This new law banned the cut of the beak from the chick which increased the violence between the animals and this led to a higher mortality rate.\\
+\includegraphics[width=\linewidth]{../Results/Comp_AB_C/Death.png}
+\includegraphics[width=\linewidth]{../Results/Comp_AB_C/Laid.png}
+
+A difference of 0,03\% means on average that in this period every day die 12 chickens more than the normal rate.
+This has an effect also on production since the chickens have poorer welfare they produce less.
+
+Using a gradient boost regression we were able to guess the death that this cycle will have in the first 400 days based on the data that we have with the other 2 cycles A and B.\newline
+\includegraphics[width=\linewidth, height=50mm]{../Results/Comp_AB_C/predictor.png}
+\newline
+\includegraphics[width=\linewidth, height=50mm]{../Results/Comp_AB_C/predicted.png}
+
+Using this prediction we say that we guess that in the first 400 days the farmer will lose 9210 compared to the 4903 of cycle A and 6369 of cycle B.
 
 \section{Economic results}
 
