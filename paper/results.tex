@@ -54,7 +54,7 @@ Data Analysis On An Eggs Farm\\[1.5ex]
 
 \begin{tabular}{lclcl}
     Davide Canali & - & 10674880 & - & davide1.canali@polimi.it\\
-    Matteo Cordioli & - & 00000000 & - & matteo.cordioli@polimi.it\\
+    Matteo Cordioli & - & 10611332 & - & matteo.cordioli@mail.polimi.it\\
     Federico Camilletti & - & 10619856 & - & federico.camilletti@polimi.it\\
     Shakiba Shahidiani  & - & 00000000 & - & shakiba.shahidiani@polimi.it\\
 \end{tabular}
@@ -70,9 +70,9 @@ Data Analysis On An Eggs Farm\\[1.5ex]
 \newpage
 
 \section{Introduction}
-In this study, we are going to analyze data from an eggs farm near Mantova to see if it's possible to improve both animal welfare and farmer revenue.
+In this study will be exposed the data analyze done starting from data gathered from an eggs farm near Mantova to see if it's possible to improve both animal welfare and farmer revenue.
 
-The farm under analysis is [//TODO INSERT NAME] and has around 40'000 chickens that produce organic eggs. We have the data starting from 2014, the production of eggs is divided into cycles lasting about 13 - 15 months each. We have 5 complete cycles and the current 2022 cycle. The first 2 cycles (called X and Y) are non-organic which means the chickens are treated differently from the last 4 cycles (Z, A, B, C) which are organic.
+The farm under analysis is "Boccola Allevamenti Avicoli Soc Agricola SS" and has around 40'000 chickens that produce organic eggs. They provided us data starting from 2014, the production of eggs is divided into cycles lasting about 13 - 15 months each. The analysis will consider 5 complete cycles and the current 2022 cycle. The first 2 cycles (called X and Y) are non-organic which means the chickens are treated differently from the last 4 cycles (Z, A, B, C) which are organic.
 
 The chickens are divided into 2 equal-sized barns, both of which receive the same treatment and operations.
 
@@ -88,7 +88,7 @@ Upon talking with the farmer we focus our attention on 3 main topics which invol
 
 \section{Data}
 \subsection{Data Collection}
-The farmer collected the data thanks to sensors and by inspecting the barns each day. Before cycle A the data were only collected in paper spreadsheets and had to be imported in a digital format.
+The farmer collected the data thanks to sensors and by inspecting the barns each day. Before cycle A the data were only collected in paper spreadsheets and to be used were needed to be imported in a digital format.
 The data on paper had 5 features: date, death, current chickens, eggs produced and sold
 when the data became saved digitally 2 extra features were collected which are feed and water.
 
@@ -104,8 +104,7 @@ In all the cycles we performed these next steps:
 \end{itemize}
 
 Specifically, in cycle A we also adjust a series of missing data regarding the water consumption adding them following the cycle distribution.
-
-//TODO Teo add what u did in cycles Y and X
+Cycles X and Y needed some normalization in the amount of eggs per day, many days had the exact same amount of eggs, which is statistically impossible. Talking with farmers we understand that were numbers placed for easyness to sell the eggs, a replacing of all those number were needed. We replaced the value of those days with the avarage of the 7 days before.
 
 
 
