@@ -117,6 +117,8 @@ To choose the parameters for these methods we used different solutions:
     \item Hierarchical: plot the dendrogram to find the optimal number of clusters.
     \item Density: plot the k-NN to find the optimal $\epsilon$.
 \end{itemize}
+
+
 \subsection{Cycle A}
 \begin{center}
     \begin{tabular}{|c | c | c | c | c | c|} 
@@ -159,6 +161,7 @@ Cluster:
     \hline
 \end{tabular}
 \end{center}
+
 
 \subsection{Cycle B}
 \begin{center}
@@ -204,6 +207,7 @@ Cluster:
 \end{tabular}
 \end{center}
 
+
 \subsection{Cycle C}
 \begin{center}
     \begin{tabular}{| c | c | c | c | c | c | c |} 
@@ -247,6 +251,7 @@ Cluster:
     \hline
 \end{tabular}
 \end{center}
+
 
 \subsection{Cycle X1}
 \begin{center}
@@ -292,6 +297,7 @@ Cluster:
 \end{tabular}
 \end{center}
 
+
 \subsection{Cycle X2}
 \begin{center}
     \begin{tabular}{| c | c | c | c | c | c | c |} 
@@ -335,6 +341,7 @@ Cluster:
     \hline
 \end{tabular}
 \end{center}
+
 
 \subsection{Cycle Y}
 \begin{center}
@@ -380,6 +387,7 @@ Cluster:
 \end{tabular}
 \end{center}
 
+
 \subsection{Cycle Z}
 \begin{center}
     \begin{tabular}{| c | c | c | c | c | c | c |} 
@@ -423,6 +431,7 @@ Cluster:
     \hline
 \end{tabular}
 \end{center}
+
 
 \section{Common features}
 In this section, we will discuss what we discovered by comparing all the cycles together.
@@ -567,9 +576,25 @@ First of all, in almost every cycle, the correlation between the percentage of d
     \item Cycle X2: 0.68
 \end{itemize}
 
-The correlation with temperature is not as significant. If considered in the entire cycle, it becomes more interesting if it is considered just the part of the cycle in which the temperature rises.
+The correlation of deaths with temperature is not as significant if considered in the entire cycle. It becomes more interesting if it is considered just the part of the cycle in which the temperature rises:
+\begin{itemize}
+    \item Cycle A: 0.61
+    \item Cycle B: 0.61
+    \item Cycle Z: 0.34
+    \item Cycle Y: 0.6
+    \item Cycle X1: -0.12
+    \item Cycle X2: 0.3
+\end{itemize}
 
-...
+The square meters per chicken haven't shown any significant correlation since the number of chickens is constant for both the organing and the non-organic cycles.
+
+It can be observed that the cycles that start at the end of the summer (A, B, Y) have a high correlation between deaths and temperature, while the ones that
+starts in winter or spring (Z, X1) have a lower correlation.
+The results suggest that there is a high correlation between the chickens' status and the time of breeding, but also that the temperature is another important aspect
+to consider. For this reason, we decided to direct the analysis to a deeper comprehension of these observations.
+
+%Even if the determinant factor is not just the temperature, it is the chickens' age during the hottest months of the year.
+%So if a chicken faces the summer at a younger age has more probability to survive.
 
 \section{Death-season correlation}
 In this section, we will analyze how the period when the chickens are introduced into the barn affects the mortality rate. This effect will be more visible in the organic cycles where the chickens are more fragile due to a lack of nutrients.
