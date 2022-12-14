@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1671009880 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1671009888
+["pdflatex"] 1671015534 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1671015540
   "../Results/Comp_AB_C/Death.png" 1671009802 53153 bcbf2a6dacf904b6aceaf33fdd323fcb ""
   "../Results/Comp_AB_C/Laid.png" 1671009856 34812 2270299b04acebb6d8dcd17c421b0aba ""
-  "../Results/Comp_AB_C/predicted.png" 1670949838 113668 ed7d42554e77efd66b7c3d377f3cd3ff ""
-  "../Results/Comp_AB_C/predictor.png" 1670949865 135301 e3bdc40b8f50506fd6dca6fee1fe0a3e ""
+  "../Results/Comp_AB_C/predicted.png" 1671011632 111818 ea8b7a60feed706488f27918c16106cb ""
+  "../Results/Comp_AB_C/predictor.png" 1671011622 135301 e3bdc40b8f50506fd6dca6fee1fe0a3e ""
   "../Results/Comparison_Z_AB/Death.png" 1670407457 88346 30e3b6c0ff3c29c5f1241047e529d9b5 ""
   "../Results/Comparison_Z_AB/Density_Cleaned.png" 1670835910 84927 4f356425a94b4573d803dec2f3e82c4d ""
   "../Results/Comparison_Z_AB/Density_Raw.png" 1670835639 94182 93a5339a6c5b7239b98082178d0969e7 ""
@@ -157,11 +157,11 @@
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "PolitecnicoLogo.png" 1663323872 1603524 f461c2be9141e56b96cb59a33a193fe2 ""
-  "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1671006494 28104 6e00712a49e4758ef701cda341895555 ""
-  "results.aux" 1671009887 2810 48a78bda3d9070193af8f2dbedadf2ff "pdflatex"
-  "results.out" 1671009887 2298 646d25363b3d8c836af5637cc5a42667 "pdflatex"
-  "results.tex" 1671006494 28104 6e00712a49e4758ef701cda341895555 ""
-  "results.toc" 1671009887 1423 3edf996c3b96540b77f9630aa08bfab3 "pdflatex"
+  "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1671015533 28104 847f903afc6437e5d506666f7105c7af ""
+  "results.aux" 1671015539 2810 48a78bda3d9070193af8f2dbedadf2ff "pdflatex"
+  "results.out" 1671015539 2298 646d25363b3d8c836af5637cc5a42667 "pdflatex"
+  "results.tex" 1671015533 28104 847f903afc6437e5d506666f7105c7af ""
+  "results.toc" 1671015539 1423 3edf996c3b96540b77f9630aa08bfab3 "pdflatex"
   (generated)
   "results.aux"
   "results.log"
