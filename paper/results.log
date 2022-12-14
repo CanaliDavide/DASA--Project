@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.16)  14 DEC 2022 10:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.16)  14 DEC 2022 10:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -708,11 +708,11 @@ File: ../Results/Comparison_Z_AB/feed_plot.png Graphic file (type png)
 Package pdftex.def Info: ../Results/Comparison_Z_AB/feed_plot.png  used on input line 619.
 (pdftex.def)             Requested size: 426.79134pt x 110.50299pt.
  [15 <../Results/Comparison_Z_AB/Density_distance.png> <../Results/Comparison_Z_AB/Density_Raw.png> <../Results/Comparison_Z_AB/Density_Cleaned.png> <../Results/Comparison_Z_AB/Plot_Clusters.png>]
-<../Results/Comp_AB_C/Death.png, id=259, 1190.2869pt x 312.2064pt>
+<../Results/Comp_AB_C/Death.png, id=259, 1196.7912pt x 312.2064pt>
 File: ../Results/Comp_AB_C/Death.png Graphic file (type png)
 <use ../Results/Comp_AB_C/Death.png>
 Package pdftex.def Info: ../Results/Comp_AB_C/Death.png  used on input line 634.
-(pdftex.def)             Requested size: 426.79134pt x 111.94165pt.
+(pdftex.def)             Requested size: 426.79134pt x 111.33664pt.
 <../Results/Comp_AB_C/Laid.png, id=260, 1171.4967pt x 312.2064pt>
 File: ../Results/Comp_AB_C/Laid.png Graphic file (type png)
 <use ../Results/Comp_AB_C/Laid.png>
@@ -741,7 +741,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  72i,18n,77p,580b,533s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\canal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/canal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on results.pdf (19 pages, 2415700 bytes).
+Output written on results.pdf (19 pages, 2419112 bytes).
 PDF statistics:
  336 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
