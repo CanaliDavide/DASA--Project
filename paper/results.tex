@@ -465,6 +465,8 @@ To better compare the different cycles we made a spider plot with 4 features:
     \item Average Humidity during the cycle
 \end{itemize}
 \includegraphics[width=\linewidth]{../Results/Every_cycle/Spider_Plot.png}
+
+
 \section{Organic vs non-organic cycles}
 One of the main differences in the cycles under analysis is the breeding method. Cycles A, B, C and Z are grown with organic farming, a method regulated by the European Union with the regulation 589/2008
 modified from text 2168/2017 %da verificare e mettere fonte
@@ -494,25 +496,25 @@ data to the second digit.
 \begin{center}
     \begin{tabular}{| c | c | c | c | c |} 
         \hline
-        Cycle & Organic & Productivity & Breeding days & Productivity/Breeding days  \\ [0.5ex] 
+        Cycle & Organic & Eggs per chicken & Breeding days & Productivity  \\ [0.5ex] 
         \hline
-        A & $\checkmark$ & 481.04 & 627 & 0.77 \\ [0.5ex] 
+        A & $\checkmark$ & 481.04 & 627 & 0.84 \\ [0.5ex] 
         \hline
-        B & $\checkmark$ & 436.90 & 586 &  0.75 \\ [0.5ex] 
+        B & $\checkmark$ & 436.90 & 586 &  0.81 \\ [0.5ex] 
         \hline
-        Z & $\checkmark$ & 420.63 & 505 & 0.83 \\ [0.5ex] 
+        Z & $\checkmark$ & 420.63 & 505 & 0.87 \\ [0.5ex] 
         \hline
-        X1 & $\times$ & 366.77 & 478 & 0.77\\ [0.5ex] 
+        X1 & $\times$ & 366.77 & 478 & 0.80\\ [0.5ex] 
         \hline
-        X2 & $\times$ & 316.29 & 342 & 0.92\\ [0.5ex] 
+        X2 & $\times$ & 316.29 & 342 & 0.95\\ [0.5ex] 
         \hline
-        Y & $\times$ & 292.25 & 359 & 0.81 \\ [0.5ex] 
+        Y & $\times$ & 292.25 & 359 & 0.83 \\ [0.5ex] 
         \hline
     \end{tabular}
 \end{center}
 
 We can notice that non-organic cycles have a lower EggsProduced/\#Chickens rate than the organic ones, but considering the days of breeding the non-organic cycles are better.
-The medium Productivity\/Breeding days of an organic cycle is 0.78 while the one of non-organic is 0.84.
+The medium organic cycle productivity is 84\% while the non-organic one is 86\%.
 
 \includegraphics[width=\linewidth]{../Results/OrganingOrNot/Laid.png}
 
@@ -539,15 +541,35 @@ we decided to consider the chickens' death percentage on the number of chickens 
     \end{tabular}
 \end{center}
 
-It is evident that in organic cycles the deaths on chickens' number is much higher than in the non-organic ones. So we decided to better understand the reason of this behavior.
-This question could have a different ways to be answered or a mix of them:
-- Different feeds quality
-- Different water consumption
-- ...
-So we decided to look for correlations:
+In organic cycles, the 'Daily deaths average' is higher than in non-organic ones: on average it is 5,76\% higher since it is 14.78\% in organic cycles and 9.02\% in non-organic ones.
 
 \includegraphics[width=\linewidth]{../Results/OrganingOrNot/DeathPerc.png}
 
+Since non-organic cycles have both better productivity and a lower death rate it would be interesting to understand the reason. The parameters that could have an impact on this are various:
+\begin{itemize}
+    \item Alimentation: organic breeding has strict rules also in terms of feed
+    \item Temperature: if a year is particularly hot chickens could suffer more
+    \item Space: in organic cycles chickens have more space
+    \item Time: the duration of a cycle could affect chickens' health
+\end{itemize}
+
+Since alimentation is one of the most important factors in the health of a living being and these data are missing in every cycle except for cycles A and B it could be difficult to answer the question
+about chickens' health.
+However, we tried to give some explanation based on our dataset and expert knowledge.
+
+First of all, in almost every cycle, the correlation between the percentage of deaths and the period of breeding is high:
+\begin{itemize}
+    \item Cycle A: 0.73
+    \item Cycle B: 0.63
+    \item Cycle Z: -0.14
+    \item Cycle Y: 0.86
+    \item Cycle X1: 0.76
+    \item Cycle X2: 0.68
+\end{itemize}
+
+The correlation with temperature is not as significant. If considered in the entire cycle, it becomes more interesting if it is considered just the part of the cycle in which the temperature rises.
+
+...
 
 \section{Death-season correlation}
 In this section, we will analyze how the period when the chickens are introduced into the barn affects the mortality rate. This effect will be more visible in the organic cycles where the chickens are more fragile due to a lack of nutrients.
