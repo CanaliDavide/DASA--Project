@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.26)  14 DEC 2022 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.11.26)  14 DEC 2022 23:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,11 +569,11 @@ File: ../Results/Two_clusters_division/CycleX1/KMeans_plot_death.png Graphic fil
 <use ../Results/Two_clusters_division/CycleX1/KMeans_plot_death.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleX1/KMeans_plot_death.png  used on input line 290.
 (pdftex.def)             Requested size: 199.16928pt x 141.40361pt.
-<../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png, id=156, 409.7709pt x 304.9794pt>
+<../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png, id=156, 409.7709pt x 304.2567pt>
 File: ../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png Graphic file (type png)
 <use ../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png>
 Package pdftex.def Info: ../Results/Two_clusters_division/CycleX1/KMeans_plot_laied.png  used on input line 294.
-(pdftex.def)             Requested size: 199.16928pt x 148.23593pt.
+(pdftex.def)             Requested size: 199.16928pt x 147.88466pt.
  [6 <../Results/Two_clusters_division/CycleC/Hierarchical_dendogram.png> <../Results/Two_clusters_division/CycleC/Hierarchical_scatter.png> <../Results/Two_clusters_division/CycleC/Hierarchical_plot_death.png> <../Results/Two_clusters_division/CycleC/Hierarchical_plot_laied.png>]
 <../Results/Two_clusters_division/CycleX2/Hierarchical_dendogram.png, id=166, 387.3672pt x 314.3745pt>
 File: ../Results/Two_clusters_division/CycleX2/Hierarchical_dendogram.png Graphic file (type png)
@@ -707,11 +707,11 @@ File: ../Results/Comparison_Z_AB/feed_plot.png Graphic file (type png)
 <use ../Results/Comparison_Z_AB/feed_plot.png>
 Package pdftex.def Info: ../Results/Comparison_Z_AB/feed_plot.png  used on input line 645.
 (pdftex.def)             Requested size: 426.79134pt x 110.50299pt.
-<../Results/Comp_AB_C/Death.png, id=258, 1190.2869pt x 312.2064pt>
+<../Results/Comp_AB_C/Death.png, id=258, 1196.7912pt x 312.2064pt>
 File: ../Results/Comp_AB_C/Death.png Graphic file (type png)
 <use ../Results/Comp_AB_C/Death.png>
 Package pdftex.def Info: ../Results/Comp_AB_C/Death.png  used on input line 660.
-(pdftex.def)             Requested size: 426.79134pt x 111.94165pt.
+(pdftex.def)             Requested size: 426.79134pt x 111.33664pt.
 <../Results/Comp_AB_C/Laid.png, id=259, 1171.4967pt x 312.2064pt>
 File: ../Results/Comp_AB_C/Laid.png Graphic file (type png)
 <use ../Results/Comp_AB_C/Laid.png>
@@ -723,11 +723,11 @@ File: ../Results/Comp_AB_C/predictor.png Graphic file (type png)
 <use ../Results/Comp_AB_C/predictor.png>
 Package pdftex.def Info: ../Results/Comp_AB_C/predictor.png  used on input line 667.
 (pdftex.def)             Requested size: 426.79134pt x 292.7585pt.
-<../Results/Comp_AB_C/predicted.png, id=267, 1148.3703pt x 787.0203pt>
+<../Results/Comp_AB_C/predicted.png, id=267, 1148.3703pt x 787.743pt>
 File: ../Results/Comp_AB_C/predicted.png Graphic file (type png)
 <use ../Results/Comp_AB_C/predicted.png>
 Package pdftex.def Info: ../Results/Comp_AB_C/predicted.png  used on input line 669.
-(pdftex.def)             Requested size: 426.79134pt x 292.48991pt.
+(pdftex.def)             Requested size: 426.79134pt x 292.7585pt.
  [17 <../Results/Comp_AB_C/Death.png> <../Results/Comp_AB_C/Laid.png> <../Results/Comp_AB_C/predictor.png>] [18 <../Results/Comp_AB_C/predicted.png>] (results.aux)
 Package rerunfilecheck Info: File `results.out' has not changed.
 (rerunfilecheck)             Checksum: 8D9FDB608E9F9B42788CD0842C6E23EB;2298.
@@ -741,7 +741,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  72i,18n,77p,636b,533s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\fcami\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/fcami/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on results.pdf (19 pages, 2417009 bytes).
+Output written on results.pdf (19 pages, 2418639 bytes).
 PDF statistics:
  336 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
