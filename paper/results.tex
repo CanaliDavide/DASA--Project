@@ -89,8 +89,11 @@ Upon talking with the farmer we focus our attention on 3 main topics which invol
 \section{Data}
 \subsection{Data Collection}
 The farmer collected the data thanks to sensors and by inspecting the barns each day. Before cycle A the data were only collected in paper spreadsheets and to be used were needed to be imported in a digital format.
-The data on paper had 5 features: date, death, current chickens, eggs produced and sold
-when the data became saved digitally 2 extra features were collected which are feed and water.
+The data on paper had 5 features: date, death count, current chickens in the barn and eggs produced and sold
+when the data became saved digitally 2 extra features were collected which are the amount of feed and water consumed. 
+As a result of direct dialogue with the farmer, we understood that some of these elements are not entirely accurate and have been partially measured. Due to the limitations of non-mechanized poultry farms, the water consumed by chickens could not be accurately recorded, so this element should not be given much weight in the analysis.
+According to our analysis of factors affecting chicken health, which was based on reading articles and consulting with chicken farmers, the information recorded by chicken farmers should be combined with weather data in the region.
+We also include in our analysis the market data from the "Mercato avicunicolo di Forlì" which is the reference point of the farmer.
 
 \subsection{Data Cleaning}
 Before starting to analyze the data we cleaned them.
@@ -497,17 +500,17 @@ data to the second digit.
         \hline
         Cycle & Organic      & Eggs per chicken & Breeding days & Productivity \\ [0.5ex]
         \hline
-        A     & $\checkmark$ & 481.04           & 627           & 0.84         \\ [0.5ex]
-        \hline
-        B     & $\checkmark$ & 436.90           & 586           & 0.81         \\ [0.5ex]
-        \hline
-        Z     & $\checkmark$ & 420.63           & 505           & 0.87         \\ [0.5ex]
-        \hline
         X1    & $\times$     & 366.77           & 478           & 0.80         \\ [0.5ex]
         \hline
         X2    & $\times$     & 316.29           & 342           & 0.95         \\ [0.5ex]
         \hline
         Y     & $\times$     & 292.25           & 359           & 0.83         \\ [0.5ex]
+        \hline
+        Z     & $\checkmark$ & 420.63           & 505           & 0.87         \\ [0.5ex]
+        \hline
+        A     & $\checkmark$ & 481.04           & 627           & 0.84         \\ [0.5ex]
+        \hline
+        B     & $\checkmark$ & 436.90           & 586           & 0.81         \\ [0.5ex]
         \hline
     \end{tabular}
 \end{center}
@@ -525,17 +528,17 @@ we decided to consider the chickens' death percentage on the number of chickens 
         \hline
         Cycle & Organic      & Deaths on chickens & Breeding days & Daily deaths average \\ [0.5ex]
         \hline
-        A     & $\checkmark$ & 0.24               & 627           & 16.18                \\ [0.5ex]
-        \hline
-        B     & $\checkmark$ & 0.25               & 586           & 18.07                \\ [0.5ex]
-        \hline
-        Z     & $\checkmark$ & 0.10               & 505           & 8.53                 \\ [0.5ex]
-        \hline
         X1    & $\times$     & 0.14               & 478           & 10.10                \\ [0.5ex]
         \hline
         X2    & $\times$     & 0.07               & 342           & 4.93                 \\ [0.5ex]
         \hline
         Y     & $\times$     & 0.07               & 359           & 12.03                \\ [0.5ex]
+        \hline
+        Z     & $\checkmark$ & 0.10               & 505           & 8.53                 \\ [0.5ex]
+        \hline
+        A     & $\checkmark$ & 0.24               & 627           & 16.18                \\ [0.5ex]
+        \hline
+        B     & $\checkmark$ & 0.25               & 586           & 18.07                \\ [0.5ex]
         \hline
     \end{tabular}
 \end{center}
@@ -558,22 +561,22 @@ However, we tried to give some explanation based on our dataset and expert knowl
 
 First of all, in almost every cycle, the correlation between the percentage of deaths and the period of breeding is high:
 \begin{itemize}
-    \item Cycle A: 0.73
-    \item Cycle B: 0.63
-    \item Cycle Z: -0.14
-    \item Cycle Y: 0.86
     \item Cycle X1: 0.76
     \item Cycle X2: 0.68
+    \item Cycle Y: 0.86 
+    \item Cycle Z: -0.14
+    \item Cycle A: 0.73
+    \item Cycle B: 0.63
 \end{itemize}
 
 The correlation of deaths with temperature is not as significant if considered in the entire cycle. It becomes more interesting if it is considered just the part of the cycle in which the temperature rises:
 \begin{itemize}
-    \item Cycle A: 0.61
-    \item Cycle B: 0.61
-    \item Cycle Z: 0.34
-    \item Cycle Y: 0.6
     \item Cycle X1: -0.12
     \item Cycle X2: 0.3
+    \item Cycle Y: 0.6
+    \item Cycle Z: 0.34
+    \item Cycle A: 0.61
+    \item Cycle B: 0.61
 \end{itemize}
 
 The square meters per chicken haven't shown any significant correlation since the number of chickens is constant for both the organing and the non-organic cycles.
@@ -665,6 +668,4 @@ Using this prediction we say that we guess that in the first 400 days the farmer
 If we, instead of using a predictor, assume that cycle C follows a constant mortality rate in its first 270 days and then has a raise, like the other cycles, we obtain a similar result with a death count of around 9000 chickens. 
 This increase in mortality of respectively 90\% and 46\% will inevitably reduce the number of eggs produced.
 If the cycle will be able to keep this rate of production, which seems to be its peak, after 400 days the total number of eggs produced will be 10.059.107 much less than 14.285.849 and 14.270.250 of cycles A and B, this means a loss of around 650.000\euro.
-\section{Data processing: shakiba}
-
 \end{document}
