@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1671094962 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1671094968
+["pdflatex"] 1671095303 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1671095310
   "../Results/Comp_AB_C/Death.png" 1671009802 53153 bcbf2a6dacf904b6aceaf33fdd323fcb ""
   "../Results/Comp_AB_C/Laid.png" 1671009856 34812 2270299b04acebb6d8dcd17c421b0aba ""
   "../Results/Comp_AB_C/predicted.png" 1671011632 111818 ea8b7a60feed706488f27918c16106cb ""
@@ -21,10 +21,10 @@
   "../Results/Two_clusters_division/CycleA/Density_plot_death.png" 1670683766 69639 1fa5e86e999ad3aa959194d5ccefcd77 ""
   "../Results/Two_clusters_division/CycleA/Density_plot_laied.png" 1670683783 61966 14fe5219ef5449544767014983313f4f ""
   "../Results/Two_clusters_division/CycleA/Density_scatter_merged.png" 1670683753 58531 9263943f15fffad4c8717989fce7704f ""
-  "../Results/Two_clusters_division/CycleB/Hierarchical_dendogram.png" 1671094864 23787 15aff0ed317d368352f02aaebff3c083 ""
-  "../Results/Two_clusters_division/CycleB/Hierarchical_plot_death.png" 1671094864 58242 42a02a6f30fdb109eb53def8775c4f8c ""
-  "../Results/Two_clusters_division/CycleB/Hierarchical_plot_laied.png" 1671094864 46774 a35f0ca98e12de6dd06eec8131797aec ""
-  "../Results/Two_clusters_division/CycleB/Hierarchical_scatter.png" 1671094864 49048 42c73626dca75013d05c1bdced5ce327 ""
+  "../Results/Two_clusters_division/CycleB/Hierarchical_dendogram.png" 1671095266 23787 15aff0ed317d368352f02aaebff3c083 ""
+  "../Results/Two_clusters_division/CycleB/Hierarchical_plot_death.png" 1671095266 58242 42a02a6f30fdb109eb53def8775c4f8c ""
+  "../Results/Two_clusters_division/CycleB/Hierarchical_plot_laied.png" 1671095266 46774 a35f0ca98e12de6dd06eec8131797aec ""
+  "../Results/Two_clusters_division/CycleB/Hierarchical_scatter.png" 1671095266 49048 42c73626dca75013d05c1bdced5ce327 ""
   "../Results/Two_clusters_division/CycleC/Hierarchical_dendogram.png" 1671007190 17238 428e4ee3b5340f4bf2f92808d000b85f ""
   "../Results/Two_clusters_division/CycleC/Hierarchical_plot_death.png" 1671007216 18814 1927ac3ff2af6a38cc94eeb910bf4411 ""
   "../Results/Two_clusters_division/CycleC/Hierarchical_plot_laied.png" 1671007234 17348 000021be77d90f46f852e45ae5d7b4a5 ""
@@ -160,11 +160,11 @@
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "PolitecnicoLogo.png" 1663323872 1603524 f461c2be9141e56b96cb59a33a193fe2 ""
-  "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1671094865 28956 1b97d1b496d245d358d62e645e1802a0 ""
-  "results.aux" 1671094967 2696 0ede2938ec8fc85ab871957c275f8be5 "pdflatex"
-  "results.out" 1671094967 2171 b810e0f9b3b3ecffc28898c651b6bd8f "pdflatex"
-  "results.tex" 1671094865 28956 1b97d1b496d245d358d62e645e1802a0 ""
-  "results.toc" 1671094967 1350 b6f9e2777a8be5eb113911856250de40 "pdflatex"
+  "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1671095300 28952 4dbe7f15be6bb868b650c57073046401 ""
+  "results.aux" 1671095309 2696 0ede2938ec8fc85ab871957c275f8be5 "pdflatex"
+  "results.out" 1671095309 2171 b810e0f9b3b3ecffc28898c651b6bd8f "pdflatex"
+  "results.tex" 1671095300 28952 4dbe7f15be6bb868b650c57073046401 ""
+  "results.toc" 1671095309 1350 b6f9e2777a8be5eb113911856250de40 "pdflatex"
   (generated)
   "results.aux"
   "results.log"
