@@ -239,7 +239,7 @@ def DensityClustering(dataSet, attributes):
     cluster = DBSCAN(eps=float(eps), min_samples=4).fit(data)
 
     data_labels = cluster.labels_
-    sns.scatterplot(x=attributes[0], y=attributes[1],data=data, hue=data_labels,legend="full", palette="rainbow").set_title('Clusters')
+    sns.scatterplot(x=attributes[0], y=attributes[1],data=data, hue=data_labels, palette="rainbow").set_title('Clusters')
     plt.show()
     return data_labels
 

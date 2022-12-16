@@ -1,12 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1671117508 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1671117515
+["pdflatex"] 1671186078 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1671186086
   "../Results/Comp_AB_C/Death.png" 1671009802 53153 bcbf2a6dacf904b6aceaf33fdd323fcb ""
   "../Results/Comp_AB_C/Laid.png" 1671009856 34812 2270299b04acebb6d8dcd17c421b0aba ""
   "../Results/Comp_AB_C/predicted.png" 1671011632 111818 ea8b7a60feed706488f27918c16106cb ""
   "../Results/Comp_AB_C/predictor.png" 1671011622 135301 e3bdc40b8f50506fd6dca6fee1fe0a3e ""
   "../Results/Comparison_Z_AB/Death.png" 1670407457 88346 30e3b6c0ff3c29c5f1241047e529d9b5 ""
   "../Results/Comparison_Z_AB/Density_Cleaned.png" 1670835910 84927 4f356425a94b4573d803dec2f3e82c4d ""
-  "../Results/Comparison_Z_AB/Density_Raw.png" 1670835639 94182 93a5339a6c5b7239b98082178d0969e7 ""
+  "../Results/Comparison_Z_AB/Density_Raw.png" 1671186076 86367 d9a5028eee5b65f71f76927e0888f872 ""
   "../Results/Comparison_Z_AB/Density_distance.png" 1670835624 41300 ca5e39e8f4afc26ca62237c9ecaa15de ""
   "../Results/Comparison_Z_AB/Plot_Clusters.png" 1670838759 134871 a956da327e3d2c668fb9ba4a96e77293 ""
   "../Results/Comparison_Z_AB/feed_plot.png" 1670842284 134864 69c3cb84739ebbc96796c4744cfd841d ""
@@ -161,10 +161,10 @@
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "PolitecnicoLogo.png" 1663323872 1603524 f461c2be9141e56b96cb59a33a193fe2 ""
   "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1671117501 30523 28e126b71cef7cda87a9dc553c15d312 ""
-  "results.aux" 1671117515 2574 41642cbbac7a80db2bfd8eebf2077717 "pdflatex"
-  "results.out" 1671117515 2001 ae0096b1d3a6b7fde52390cce7f04e16 "pdflatex"
+  "results.aux" 1671186085 2574 41642cbbac7a80db2bfd8eebf2077717 "pdflatex"
+  "results.out" 1671186085 2001 ae0096b1d3a6b7fde52390cce7f04e16 "pdflatex"
   "results.tex" 1671117501 30523 28e126b71cef7cda87a9dc553c15d312 ""
-  "results.toc" 1671117515 1269 d76b50a739342579c0bc38aaf0571ce8 "pdflatex"
+  "results.toc" 1671186085 1269 d76b50a739342579c0bc38aaf0571ce8 "pdflatex"
   (generated)
   "results.aux"
   "results.log"
