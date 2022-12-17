@@ -87,6 +87,21 @@ Upon talking with the farmer we focus our attention on 3 main topics which invol
 \end{itemize}
 
 \section{Data}
+
+\subsection{Data strategy: research and mining}
+
+Approaching our data analysis we had to decide whether to start with research and mining or with use cases. The first option implies finding a dataset from which we could extract an use case.
+The second one consists in having a use case and then finding data useful to reach the objective.
+Since at the beginning of the process our knowledge of the farming industry was limited and not concrete it was difficult for us to find a real use case. For this reason, we decided to start with 
+research and mining. Our idea was to contact some farming industries with unexploited data at their disposal and then ask them if they needed some kind of data analysis.
+
+The research and mining approach was successful and helped us to find a farm that has around 40,000 chickens for egg production.
+As a result of direct dialogue with the farmer, we understood that he must register chickens' data because of regulations, but the data were completely unexploited.
+Furthermore, we noticed that the breeding process was a kind of function with inputs like feed, water, temperatures and eggs as main output.
+It was clear that we could have the possibility to optimize this function.
+
+At this point, our research brought us a dataset and an objective. So we decided to start our data analysis in this field.
+
 \subsection{Data Collection}
 The farmer collected the data thanks to sensors and by inspecting the barns each day. Before cycle A the data were only collected in paper spreadsheets and to be used were needed to be imported in a digital format.
 The data on paper had 5 features: date, death count, current chickens in the barn and eggs produced and sold
@@ -468,7 +483,6 @@ To better compare the different cycles we made a spider plot with 4 features:
 \end{itemize}
 \includegraphics[width=\linewidth]{../Results/Every_cycle/Spider_Plot.png}
 
-
 \section{Organic vs non-organic cycles}
 One of the main differences in the cycles under analysis is the breeding method. Cycles A, B, C and Z are grown with organic farming, a method regulated by the European Union with the regulation 589/2008
 modified from text 2168/2017 %da verificare e mettere fonte
@@ -586,8 +600,6 @@ starts in winter or spring (Z, X1) have a lower correlation.
 The results suggest that there is a high correlation between the chickens' status and the time of breeding, but also that the temperature is another important aspect
 to consider. For this reason, we decided to direct the analysis to a deeper comprehension of these observations.
 
-...
-
 \section{Death-season correlation}
 In this section, we will analyze how the period when the chickens are introduced into the barn affects the mortality rate. This effect will be more visible in the organic cycles where the chickens are more fragile due to a lack of nutrients.
 
@@ -668,4 +680,5 @@ Using this prediction we say that we guess that in the first 400 days the farmer
 If we, instead of using a predictor, assume that cycle C follows a constant mortality rate in its first 270 days and then has a raise, like the other cycles, we obtain a similar result with a death count of around 9000 chickens. 
 This increase in mortality of respectively 90\% and 46\% will inevitably reduce the number of eggs produced.
 If the cycle will be able to keep this rate of production, which seems to be its peak, after 400 days the total number of eggs produced will be 10.059.107 much less than 14.285.849 and 14.270.250 of cycles A and B, this means a loss of around 650.000\euro.
+
 \end{document}
