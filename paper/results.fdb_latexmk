@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1671440913 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1671440919
+["pdflatex"] 1671444560 "c:/Users/canal/Documents/DASA---Project/paper/results.tex" "results.pdf" "results" 1671444567
   "../Results/Comp_AB_C/Death.png" 1671009802 53153 bcbf2a6dacf904b6aceaf33fdd323fcb ""
   "../Results/Comp_AB_C/Laid.png" 1671009856 34812 2270299b04acebb6d8dcd17c421b0aba ""
   "../Results/Comp_AB_C/predicted.png" 1671011632 111818 ea8b7a60feed706488f27918c16106cb ""
@@ -162,11 +162,11 @@
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/canal/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656233290 56148 51a9a8571c07b9921892ae11063ae853 ""
   "PolitecnicoLogo.png" 1663323872 1603524 f461c2be9141e56b96cb59a33a193fe2 ""
-  "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1671440912 32283 60697156cc941f3b3a17a4f42d93a468 ""
-  "results.aux" 1671440918 2715 8ef45438df55c21cb34a2f711ac3dea2 "pdflatex"
-  "results.out" 1671440918 2241 8b4e56a51ea2e224f73a85f257e2fc79 "pdflatex"
-  "results.tex" 1671440912 32283 60697156cc941f3b3a17a4f42d93a468 ""
-  "results.toc" 1671440918 1369 148a48eeb9f16b31370366a9d5ed43ea "pdflatex"
+  "c:/Users/canal/Documents/DASA---Project/paper/results.tex" 1671444559 32281 23a06a488b5bd81128f8d53e3bc2f1ce ""
+  "results.aux" 1671444567 2715 8ef45438df55c21cb34a2f711ac3dea2 "pdflatex"
+  "results.out" 1671444567 2241 8b4e56a51ea2e224f73a85f257e2fc79 "pdflatex"
+  "results.tex" 1671444559 32281 23a06a488b5bd81128f8d53e3bc2f1ce ""
+  "results.toc" 1671444567 1369 148a48eeb9f16b31370366a9d5ed43ea "pdflatex"
   (generated)
   "results.aux"
   "results.log"
